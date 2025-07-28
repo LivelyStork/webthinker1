@@ -43,10 +43,21 @@ let spacing = 50;
   // Task 4: Grid of Circles
 // rect(0, 50, width, height-100)
 // circle(width/2, height/2, 100)
-  circleDiameter = 30
-  circleNum = 5
-  total = circleDiameter*circleNum;
-  startX = (width - total)/2 + circleDiameter/2
+  let circleDiameter = 50;
+  let circleNum = 5;
+  let total = circleDiameter*circleNum;
+  let startX = (width - total)/2 + circleDiameter/2; 
+  for (let i = 0; i < circleNum; i++) {
+    circle(startX + i*circleDiameter, height/2, circleDiameter);
+  }
 }
 
 //light to dark shade fill(255-(i*50));
+
+// let circleDiameter = 50;
+//     let numCircles = 5;
+//     let totalWidth = numCircles * circleDiameter
+//     let startX = (width - totalWidth) / 2;
+//     for (let i = 0; i < numCircles; i++) {
+//         circle(startX + i * circleDiameter, height / 2, circleDiameter);
+//   }
