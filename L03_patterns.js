@@ -10,15 +10,15 @@ function draw() {
   // circle(325,100,100);
   // circle(450,100,100);
 let spacing = 15;
-for (let i = 0; i < 11; i++) {
+for (let i = 0; i < 5; i++) {
 //   if(i%2==0) {
 //     fill(0);
 //   }
 //   else {
 //     fill(255);
 //   }
-fill(i * 20);
-rect(spacing + i * spacing,100,10,10)
+fill(i * 50);
+rect(spacing + i * spacing,100,50,10)
   // noStroke()
   // fill(colorValue%255);
   // fill(colorValue * 255)
