@@ -10,7 +10,7 @@ function draw() {
   // circle(325,100,100);
   // circle(450,100,100);
 let spacing = 50;
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 11; i++) {
 //   if(i%2==0) {
 //     fill(0);
 //   }
