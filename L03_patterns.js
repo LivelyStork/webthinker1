@@ -10,6 +10,7 @@ function draw() {
   // circle(325,100,100);
   // circle(450,100,100);
 let spacing = 60;
+let colorValue = 1;
 for (let i = 5; i > 0; i--) {
 //   if(i%2==0) {
 //     fill(0);
