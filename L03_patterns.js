@@ -3,7 +3,7 @@ function setup() {
     background(220);
     // noLoop(); // Stops continuous drawing
   }
-  let colorValue = 0;
+  let colorValue = 1;
 function draw() {
   // circle(75,100,100);
   // circle(200,100,100);
@@ -19,6 +19,7 @@ for (let i = 5; i > 0; i--) {
 //   }
 fill(i * 50);
 rect(spacing + i * spacing,100,50,50)
+colo
   // noStroke()
   // fill(colorValue%255);
   // fill(colorValue * 255)
