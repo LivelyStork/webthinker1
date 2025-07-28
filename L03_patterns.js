@@ -43,7 +43,14 @@ let spacing = 50;
   // Task 4: Grid of Circles
 // rect(0, 50, width, height-100)
 // circle(width/2, height/2, 100)
-  let circleDiameter = 50;
+  // let circleDiameter = 50;
+  // let circleNum = 5;
+  // let total = circleDiameter*circleNum;
+  // let startX = (width - total)/2 + circleDiameter/2; 
+  // for (let i = 0; i < circleNum; i++) {
+  //   circle(startX + i*circleDiameter, height/2, circleDiameter);
+  // }
+   let circleDiameter = 50;
   let circleNum = 5;
   let total = circleDiameter*circleNum;
   let startX = (width - total)/2 + circleDiameter/2; 
