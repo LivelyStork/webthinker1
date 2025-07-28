@@ -17,7 +17,7 @@ for (let i = 0; i < 11; i++) {
 //   else {
 //     fill(255);
 //   }
-fill(i * 25);
+fill(i * 20);
 rect(spacing + i * spacing,100,10,10)
   // noStroke()
   // fill(colorValue%255);
