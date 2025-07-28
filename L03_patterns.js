@@ -42,7 +42,7 @@ rect(spacing + i * spacing,100,50,50)
 
   // Task 4: Grid of Circles
 circle(width/2, length/2, 100)
-rect(0, 50, width, length-50)
+rect(0, 50, width, length-100)
 }
 
 //light to dark shade fill(255-(i*50));
