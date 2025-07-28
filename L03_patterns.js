@@ -16,9 +16,9 @@ for (let i = 0; i < 5; i++) {
    if(i%2==0) {
      fill(0);
    }
-//   else {
-//     fill(255);
-//   }
+  else {
+    fill(255);
+  }
 // fill(colorValue * 50);
 fill(255-(i*50));
 rect(spacing + i * spacing,100,50,50)
