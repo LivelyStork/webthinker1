@@ -9,7 +9,7 @@ function draw() {
   // circle(200,100,100);
   // circle(325,100,100);
   // circle(450,100,100);
-let spacing = 60;
+let spacing = 50;
 // let colorValue = 1;
 // for (let i = 5; i > 0; i--) {
 for (let i = 0; i < 5; i++) {
