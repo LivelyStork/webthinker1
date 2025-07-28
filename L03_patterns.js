@@ -9,7 +9,7 @@ function draw() {
   // circle(200,100,100);
   // circle(325,100,100);
   // circle(450,100,100);
-let spacing = 50;
+let spacing = 15;
 for (let i = 0; i < 11; i++) {
 //   if(i%2==0) {
 //     fill(0);
@@ -18,7 +18,7 @@ for (let i = 0; i < 11; i++) {
 //     fill(255);
 //   }
 fill(i * 11);
-rect(10,10,)
+rect(10,10,spacing + i * spacing)
   // noStroke()
   // fill(colorValue%255);
   // fill(colorValue * 255)
