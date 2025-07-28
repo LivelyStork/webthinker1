@@ -60,7 +60,7 @@ let spacing = 50;
   let circleDiameter = 30
   let circleNum = 5
   let total = circleNum * circleDiameter
-  let
+  let startX = (width - total)/2 + circleDiameter/2; 
 }
 
 //light to dark shade fill(255-(i*50));
