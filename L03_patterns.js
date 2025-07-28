@@ -41,7 +41,7 @@ rect(spacing + i * spacing,100,50,50)
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-  circle(width/2, length/2, 100)
+circle(width/2, length/2, 100)
 rect(0, 20, width, 560)
 }
 
