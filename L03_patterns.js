@@ -3,7 +3,7 @@ function setup() {
     background(220);
     // noLoop(); // Stops continuous drawing
   }
-  let colorValue = 1;
+  
 function draw() {
   // circle(75,100,100);
   // circle(200,100,100);
