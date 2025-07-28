@@ -12,7 +12,7 @@ function draw() {
 let spacing = 50;
 // let colorValue = 1;
 // for (let i = 5; i > 0; i--) {
-for (let i = 0; i < 5; i++) {
+// for (let i = 0; i < 5; i++) {
    if(i%2==0) {
      fill(0);
    }
@@ -31,7 +31,7 @@ rect(spacing + i * spacing,100,50,50)
   // colorValue +=1;
   // else
   //   colorValue -=1
-}
+// }
   // Recap 1: Repeating Circles
 
   // Task 1: Colour Gradient
@@ -41,6 +41,8 @@ rect(spacing + i * spacing,100,50,50)
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
+  circle(width/2, length/2, 100)
+rect(0, 20, width, 560)
 }
 
 //light to dark shade fill(255-(i*50));
