@@ -57,7 +57,7 @@ let spacing = 50;
   // for (let i = 0; i < circleNum; i++) {
   //   circle(circleDiameter/2 + i*circleDiameter,circleDiameter/2, circleDiameter);
   // }
-  
+  let circleDiameter = 30
 }
 
 //light to dark shade fill(255-(i*50));
