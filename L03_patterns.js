@@ -11,17 +11,17 @@ function draw() {
   // circle(450,100,100);
 let spacing = 50;
 for (let i = 0; i < 5; i++) {
-  if(i%2==0) {
-    fill(0);
-  }
-  else {
-    fill(255);
-  }
+//   if(i%2==0) {
+//     fill(0);
+//   }
+//   else {
+//     fill(255);
+//   }
   // fill(i * 50);
   // noStroke()
   // fill(colorValue%255);
   // fill(colorValue * 255)
-  circle(spacing + i * spacing,100,40);
+  // circle(spacing + i * spacing,100,40);
   // if (colorValue * 255 == 0)
   // colorValue +=1;
   // else
