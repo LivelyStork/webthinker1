@@ -18,7 +18,7 @@ for (let i = 5; i > 0; i--) {
 //   else {
 //     fill(255);
 //   }
-fill(255-(i*50));
+// fill(colorValue * 50);
 rect(spacing + i * spacing,100,50,50)
 colorValue = colorValue + 1
   // noStroke()
