@@ -41,7 +41,7 @@ let spacing = 50;
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-rect(1, 1, wt, length)
+rect(1, 1, width-1, length-1)
 circle(width/2, length/2, 100)
 }
 
