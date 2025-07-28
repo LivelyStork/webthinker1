@@ -17,7 +17,7 @@ for (let i = 0; i < 5; i++) {
 //   else {
 //     fill(255);
 //   }
-fill(i * 10);
+fill(i * 11);
   // noStroke()
   // fill(colorValue%255);
   // fill(colorValue * 255)
