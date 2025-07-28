@@ -19,7 +19,7 @@ for (let i = 5; i > 0; i--) {
 //   }
 fill(i * 50);
 rect(spacing + i * spacing,100,50,50)
-colo
+colorValue = colorValue + 1
   // noStroke()
   // fill(colorValue%255);
   // fill(colorValue * 255)
