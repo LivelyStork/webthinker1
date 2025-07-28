@@ -13,15 +13,15 @@ let spacing = 50;
 // let colorValue = 1;
 // for (let i = 5; i > 0; i--) {
 // for (let i = 0; i < 5; i++) {
-   if(i%2==0) {
-     fill(0);
-   }
-  else {
-    fill(255);
-  }
-// fill(colorValue * 50);
-// fill(255-(i*50));
-rect(spacing + i * spacing,100,50,50)
+//    if(i%2==0) {
+//      fill(0);
+//    }
+//   else {
+//     fill(255);
+//   }
+// // fill(colorValue * 50);
+// // fill(255-(i*50));
+// rect(spacing + i * spacing,100,50,50)
 // colorValue = colorValue + 1
   // noStroke()
   // fill(colorValue%255);
