@@ -55,7 +55,7 @@ let spacing = 50;
   let total = circleDiameter*circleNum;
   let startX = (width - total)/2 + circleDiameter/2; 
   for (let i = 0; i < circleNum; i++) {
-    circle(circleDiameter/2 + i*circleDiameter, height/2, circleDiameter);
+    circle(circleDiameter/2, height/2, circleDiameter);
   }
 }
 
