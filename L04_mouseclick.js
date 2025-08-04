@@ -20,7 +20,7 @@ function draw() {
 //     circle(50 + i*60,50+i*60, 50);
 // }
 let shapeColor = 'blue';
-
+fill
 function mousePressed() {
     shapeColor
 }
