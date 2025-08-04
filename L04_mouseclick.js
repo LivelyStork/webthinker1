@@ -5,6 +5,8 @@ function setup() {
   }
   
 function draw() {
-    X = 10
-    Y
+    x = 10
+    y = 10
+
+    
 }
