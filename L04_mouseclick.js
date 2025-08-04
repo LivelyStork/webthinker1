@@ -8,5 +8,6 @@ function draw() {
 x = 10
 y = 10
 fill(0,0,0)
+circle()
 
 }
