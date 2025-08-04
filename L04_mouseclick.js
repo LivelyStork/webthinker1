@@ -21,7 +21,9 @@ function draw() {
 // }
 let shapeColor = 'blue';
 
-function mousePressed()
+function mousePressed() {
+    shape
+}
 }
 
 
