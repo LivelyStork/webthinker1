@@ -58,6 +58,10 @@ function setup() {
 //     //shapeColor = 'blue';
 //     shapeColor = 'white'; //shapeColor = color(0);
 // }
+// function mouseMoved() {
+//     fill(255,0 ,0)
+//     circle(mouseX, mouseY, 30)
+// }
 function mouseMoved() {
     fill(255,0 ,0)
     circle(mouseX, mouseY, 30)
