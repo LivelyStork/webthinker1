@@ -6,7 +6,7 @@ function setup() {
     // noLoop(); // Stops continuous drawing
   }
   
-function draw() {
+// function draw() {
 // let x = 50;
 // let y = 50;
 // let green = 0;
