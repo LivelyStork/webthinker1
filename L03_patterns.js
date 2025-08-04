@@ -72,7 +72,8 @@ let spacing = 50;
   let circleDiameter = 30
   let circleNum = 5
   let total = circleNum * circleDiameter
-  start
+  startX = 0
+  startY = 0
   for (let row = 0; row < circleNum; row++) {
     let rowY = startY + row * circleDiameter
 
