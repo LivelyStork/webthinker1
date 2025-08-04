@@ -9,11 +9,11 @@ function draw() {
 // let y = 50;
 // let green = 0;
 // for (let i = 0; i < 5; i++) {
-//     fill(0,green,0)
-//     circle(x,y,30)
-//     x = x + 50
-//     y = y + 50
-//     green = green + 50
+//     fill(0,green,0);
+//     circle(x,y,30);
+//     x = x + 50;
+//     y = y + 50;
+//     green = green + 50;
 
     for(let i=0; i<5; i++) {
         fill(0,i*50,0); //fill(r,g,b)
