@@ -5,8 +5,8 @@ function setup() {
   }
   
 function draw() {
-x = 50
-y = 50
+let x = 50
+let y = 50
 
 fill(0,green,0)
 circle(x,y,30)
