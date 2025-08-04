@@ -25,6 +25,9 @@ circle(width/2, height/2, 100)
 function mousePressed() {
     shapeColor = 'red'
 }
+function mouseReleased() {
+    
+}
 }
 
 
