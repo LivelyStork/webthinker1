@@ -22,15 +22,16 @@ function draw() {
 //     circle(50 + i*60,50+i*60, 50);
 // }
 
-fill(shapeColor);
-circle(width/2, height/2, 100)
+// fill(shapeColor);
+// circle(width/2, height/2, 100)
 
-}
+// }
 
-function mousePressed() {
-    shapeColor = 'red';
-}
+// function mousePressed() {
+//     shapeColor = 'red';
+// }
 
-function mouseReleased() {
-    shapeColor = 'blue';
+// function mouseReleased() {
+//     shapeColor = 'blue';
+shapeColor = color(random(255), random(255), random(255));
 }
