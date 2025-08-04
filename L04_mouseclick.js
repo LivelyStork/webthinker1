@@ -11,7 +11,7 @@ let green = 0
 for (let i = 1; i < 6; i++) {
     fill(0,green,0)
     circle(x,y,30)
-    x = x * 50
+    x = x + 50
     y = y + 50
     green = green + 50
 }
