@@ -8,12 +8,12 @@ function draw() {
 let x = 50
 let y = 50
 let green = 0
-for (let i = 2; i < 7; i++) {
+for (let i = 0; i < 5; i++) {
     fill(0,green,0)
     circle(x,y,30)
-    x = x * i
-    y = y * i
-    green = green + 50
+    x = x + 50
+    y = y + 50
+    green = green
 }
 
 }
