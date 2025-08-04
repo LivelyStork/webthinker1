@@ -57,19 +57,20 @@ let spacing = 50;
   // for (let i = 0; i < circleNum; i++) {
   //   circle(circleDiameter/2 + i*circleDiameter,circleDiameter/2, circleDiameter);
   // }
-  let circleDiameter = 30
-  let circleNum = 5
-  let total = circleNum * circleDiameter
-  let startX = (width - total)/2 + circleDiameter/2; 
-  let startY = (height - total)/2 + circleDiameter/2; 
-  for (let row = 0; row < circleNum; row++) {
-    let rowY = startY + row * circleDiameter
+  // let circleDiameter = 30
+  // let circleNum = 5
+  // let total = circleNum * circleDiameter
+  // let startX = (width - total)/2 + circleDiameter/2; 
+  // let startY = (height - total)/2 + circleDiameter/2; 
+  // for (let row = 0; row < circleNum; row++) {
+  //   let rowY = startY + row * circleDiameter
 
-    for (let i = 0; i < circleNum; i++) {
-      circle(startX + i * circleDiameter, rowY, circleDiameter)
-    }
-  }
+  //   for (let i = 0; i < circleNum; i++) {
+  //     circle(startX + i * circleDiameter, rowY, circleDiameter)
+  //   }
+  // }
 }
+
 
 //light to dark shade fill(255-(i*50));
 
