@@ -68,6 +68,6 @@ function setup() {
 // }
 shapeColor = color(random(255), random(255), random(255));
 function mouseDragged() {
-    fill()
+    fill(shapeColor)
     circle(mouseX, mouseY, 30)
 }
