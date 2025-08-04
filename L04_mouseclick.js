@@ -67,6 +67,6 @@ function setup() {
 //     circle(mouseX, mouseY, 30)
 // }
 function mouseDragged() {
-    fill(255,0 ,0)
+    fill(2,0 ,0)
     circle(mouseX, mouseY, 30)
 }
