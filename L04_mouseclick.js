@@ -1,3 +1,5 @@
+let shapeColor = 'blue';
+
 function setup() {
     createCanvas(600, 400);
     background(220);
@@ -19,15 +21,16 @@ function draw() {
 //     fill(0,i*50,0); //fill(r,g,b)
 //     circle(50 + i*60,50+i*60, 50);
 // }
-let shapeColor = 'blue';
+
 fill(shapeColor);
 circle(width/2, height/2, 100)
+
+}
+
 function mousePressed() {
-    shapeColor = 'red'
+    shapeColor = 'red';
 }
+
 function mouseReleased() {
-    shapeColor = 'blue'
+    shapeColor = 'blue';
 }
-}
-
-
