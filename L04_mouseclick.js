@@ -19,7 +19,7 @@ function draw() {
 //     fill(0,i*50,0); //fill(r,g,b)
 //     circle(50 + i*60,50+i*60, 50);
 // }
-let shapecou
+let shapecolor
 }
 
 
