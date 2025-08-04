@@ -43,6 +43,6 @@ function mousePressed() {
 }
 
 function mouseReleased() {
-    shapeColor = 'blue';
-shapeColor = color(random(255), random(255), random(255));
+    //shapeColor = 'blue';
+    shapeColor = color(random(255), random(255), random(255));
 }
