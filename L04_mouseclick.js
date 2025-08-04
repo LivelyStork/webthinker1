@@ -56,5 +56,5 @@ function mousePressed() {
 
 function mouseReleased() {
     //shapeColor = 'blue';
-    shapeColor = 'white';
+    shapeColor = 'white'; //shape
 }
