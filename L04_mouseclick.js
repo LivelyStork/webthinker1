@@ -13,7 +13,7 @@ for (let i = 0; i < 5; i++) {
     circle(x,y,30)
     x = x + 50
     y = y + 50
-    green = green
+    green = green + 50
 }
 
 }
