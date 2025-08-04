@@ -69,18 +69,18 @@ let spacing = 50;
   //     circle(startX + i * circleDiameter, rowY, circleDiameter)
   //   }
   // }
-  let circleDiameter = 30
-  let circleNum = 5
-  let total = circleNum * circleDiameter
-  startX = circleDiameter/2
-  startY = circleDiameter/2
-  for (let row = 0; row < circleNum; row++) {
-    let rowY = startY + row * circleDiameter
+  // let circleDiameter = 30
+  // let circleNum = 5
+  // let total = circleNum * circleDiameter
+  // startX = circleDiameter/2
+  // startY = circleDiameter/2
+  // for (let row = 0; row < circleNum; row++) {
+  //   let rowY = startY + row * circleDiameter
 
-    for (let i = 0; i < circleNum; i++) {
-      circle(startX + i * circleDiameter, rowY, circleDiameter)
-    }
-  }
+  //   for (let i = 0; i < circleNum; i++) {
+  //     circle(startX + i * circleDiameter, rowY, circleDiameter)
+  //   }
+  // }
 }
 
 
