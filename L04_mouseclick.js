@@ -22,7 +22,7 @@ function draw() {
 let shapeColor = 'blue';
 
 function mousePressed() {
-    shape
+    shapeColor
 }
 }
 
