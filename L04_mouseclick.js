@@ -15,10 +15,11 @@ function draw() {
 //     y = y + 50;
 //     green = green + 50;
 
-for(let i=0; i<5; i++) {
-    fill(0,i*50,0); //fill(r,g,b)
-    circle(50 + i*60,50+i*60, 50);
-}
+// for(let i=0; i<5; i++) {
+//     fill(0,i*50,0); //fill(r,g,b)
+//     circle(50 + i*60,50+i*60, 50);
+// }
+
 }
 
 
