@@ -62,7 +62,7 @@ function setup() {
 //     fill(255,0 ,0)
 //     circle(mouseX, mouseY, 30)
 // }
-function mouseMoved() {
+function mouseDragged() {
     fill(255,0 ,0)
     circle(mouseX, mouseY, 30)
 }
