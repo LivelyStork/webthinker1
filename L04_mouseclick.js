@@ -7,6 +7,4 @@ function setup() {
 function draw() {
     x = 10
     y = 10
-
-    
 }
