@@ -7,6 +7,6 @@ function setup() {
 function draw() {
 x = 10
 y = 10
-fill()
+fill(0,0,0)
 
 }
