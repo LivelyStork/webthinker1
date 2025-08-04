@@ -5,5 +5,6 @@ function setup() {
   }
   
 function draw() {
-    X
+    X = 10
+    Y
 }
