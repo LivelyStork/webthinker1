@@ -21,7 +21,7 @@ function draw() {
 // }
 let shapeColor = 'blue';
 fill(shapeColor);
-circle
+circle()
 function mousePressed() {
     shapeColor
 }
