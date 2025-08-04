@@ -21,6 +21,7 @@ function draw() {
 // }
 let shapeColor = 'blue';
 
+function setup() 
 }
 
 
