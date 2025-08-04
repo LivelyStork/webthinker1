@@ -45,16 +45,20 @@ function draw() {
 // function mouseReleased() {
 //     //shapeColor = 'blue';
 //     shapeColor = color(random(255), random(255), random(255));
-fill(shapeColor);
-circle(width/2, height/2, 100)
+// fill(shapeColor);
+// circle(width/2, height/2, 100)
 
-}
+// }
 
-function mousePressed() {
-    shapeColor = color(random(255), random(255), random(255));
-}
+// function mousePressed() {
+//     shapeColor = color(random(255), random(255), random(255));
+// }
 
-function mouseReleased() {
-    //shapeColor = 'blue';
-    shapeColor = 'white'; //shapeColor = color(0);
+// function mouseReleased() {
+//     //shapeColor = 'blue';
+//     shapeColor = 'white'; //shapeColor = color(0);
+// }
+function mouseMoved() {
+    fill(255,0 ,0)
+    circle(mouseX, mouseY, 30)
 }
