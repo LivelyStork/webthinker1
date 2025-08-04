@@ -51,10 +51,10 @@ circle(width/2, height/2, 100)
 }
 
 function mousePressed() {
-    shapeColor = 'white';
+    shapeColor = color(random(255), random(255), random(255))
 }
 
 function mouseReleased() {
     //shapeColor = 'blue';
-    shapeColor = color(random(255), random(255), random(255));
+    shapeColor = 'white';
 }
