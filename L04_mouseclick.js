@@ -7,8 +7,9 @@ function setup() {
 function draw() {
 let x = 50
 let y = 50
-
+let green = 0
 fill(0,green,0)
+
 circle(x,y,30)
 
 }
