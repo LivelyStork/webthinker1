@@ -80,6 +80,9 @@ let spacing = 50;
     for (let i = 0; i < circleNum; i++) {
       circle(startX + i * circleDiameter, rowY, circleDiameter)
     }
+    {
+      
+    }
   }
 }
 
