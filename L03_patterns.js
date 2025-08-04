@@ -66,7 +66,7 @@ let spacing = 50;
     let rowY = startY + row * circleDiameter
 
     for (let i = 0; i < numcircles; i++) {
-      circle(startX + i * circleDiameter)
+      circle(startX + i * circleDiameter, rowY, circleDiameter)
     }
   }
 }
