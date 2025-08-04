@@ -70,5 +70,5 @@ function mouseDragged() {
     shapeColor = color(random(255), random(255), random(255));
     size = random(10, 150)
     fill(shapeColor)
-    circle(mouseX, mouseY, )
+    circle(mouseX, mouseY, size)
 }
