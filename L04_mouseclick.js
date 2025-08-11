@@ -72,5 +72,5 @@ function mouseDragged() {
     let mx = random(-30,30)
     let my = random(-30,30)
     fill(shapeColor)
-    circle(mouseX, mouseY, size)
+    circle(mouseX + mx, mouseY + my, size)
 }
