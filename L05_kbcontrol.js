@@ -1,5 +1,6 @@
 // let rancolor = 'blue'; 
 // let size = '10'
+let x = 200
 let shapeColor = 'blue';
 function setup() {
     createCanvas(600, 400);
@@ -75,7 +76,9 @@ function keyPressed() {
     // }
     fill(shapeColor);
     circle(width/2, height/2, 100);
-    
+    if(keyIsDown(LEFT_ARROW)){
+        
+    }
 }
 
 // function keyPressed() {
