@@ -51,7 +51,7 @@ function draw () {
         x+=5;
     }
     if(keyIsDown(UP_ARROW)){
-
+        
     }
     if(keyIsDown(DOWN_ARROW)){
 
