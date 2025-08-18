@@ -79,6 +79,9 @@ function keyPressed() {
     if(keyIsDown(LEFT_ARROW)){
         x-=5
     }
+    if(keyIsDown(RIGHT_ARROW)){
+        
+    }
 }
 
 // function keyPressed() {
