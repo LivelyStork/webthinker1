@@ -53,8 +53,8 @@ function draw () {
     if(keyIsDown(UP_ARROW)){
 
     }
-    if(keyIsDown(RIGHT_ARROW)){
-        
+    if(keyIsDown(DOWN_ARROW)){
+
     }
     if(x<50){
         x=50
