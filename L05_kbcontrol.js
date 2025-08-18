@@ -1,7 +1,9 @@
 // let rancolor = 'blue'; 
 // let size = '10'
 // let x = 200
-let ball = {}
+let ball = {
+    
+}
 let shapeColor = 'blue';
 function setup() {
     createCanvas(600, 400);
