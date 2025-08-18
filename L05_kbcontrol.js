@@ -52,7 +52,7 @@ function draw () {
     fill(shapeColor);
     circle(ball.x, height/2, 100);
     if(keyIsDown(LEFT_ARROW)){
-        if(key)
+        if(keyIsDown)
         ball.x-=5
     }
     if(keyIsDown(RIGHT_ARROW)){
