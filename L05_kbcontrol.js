@@ -1,6 +1,7 @@
 // let rancolor = 'blue'; 
 // let size = '10'
-let x = 200
+// let x = 200
+
 let shapeColor = 'blue';
 function setup() {
     createCanvas(600, 400);
@@ -51,7 +52,7 @@ function draw () {
         x+=5;
     }
     if(keyIsDown(UP_ARROW)){
-        
+
     }
     if(keyIsDown(DOWN_ARROW)){
 
