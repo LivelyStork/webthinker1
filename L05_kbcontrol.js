@@ -77,7 +77,7 @@ function keyPressed() {
     fill(shapeColor);
     circle(x, height/2, 100);
     if(keyIsDown(LEFT_ARROW)){
-
+        x-=5
     }
 }
 
