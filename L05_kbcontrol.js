@@ -63,7 +63,7 @@ function draw () {
 //     }
 // }
 
-// function keyPressed() {
+function keyPressed() {
     // if(key === 'c') {
     //     showCircle = !showCircle;
     // }
@@ -75,7 +75,7 @@ function draw () {
     // }
 //     fill(shapeColor);
 //     circle(width/2, height/2, 100);
-// }
+}
 
 // function keyPressed() {
 //     console.log("key: ", key);
