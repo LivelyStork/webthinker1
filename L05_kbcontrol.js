@@ -50,7 +50,7 @@ function setup() {
 function draw () {
     background(220);
     fill(shapeColor);
-    // circle(x, height/2, 100);
+    circle(ball.x, height/2, 100);
     if(keyIsDown(LEFT_ARROW)){
         x-=5
     }
