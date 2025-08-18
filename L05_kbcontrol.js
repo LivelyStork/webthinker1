@@ -50,6 +50,7 @@ function draw () {
     if(keyIsDown(RIGHT_ARROW)){
         x+=5;
     }
+    if(x<25)
     // if(showCircle) {
     //     circle(width/2, height/2, 100);
     // }
