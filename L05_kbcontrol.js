@@ -2,7 +2,11 @@
 // let size = '10'
 // let x = 200
 let ball = {
-    
+    x:300,
+    y:200,
+    size:40,
+    speed:5,
+    boost:10
 }
 let shapeColor = 'blue';
 function setup() {
