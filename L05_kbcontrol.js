@@ -75,9 +75,9 @@ function keyPressed() {
     //     showTriangle = !showTriangle
     // }
     fill(shapeColor);
-    circle(width/2, height/2, 100);
+    circle(x, height/2, 100);
     if(keyIsDown(LEFT_ARROW)){
-        
+
     }
 }
 
