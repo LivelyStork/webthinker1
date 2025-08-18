@@ -63,10 +63,10 @@ function draw () {
     if(keyIsDown(DOWN_ARROW)){
         ball.y+=5;
     }
-    if(x<50){
+    if(ball.x<50){
         ball.x=50
     }
-    if(x>width-50){
+    if(ball.x>width-50){
         x=width-50
     }
     // if(showCircle) {
