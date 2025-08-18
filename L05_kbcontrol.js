@@ -110,7 +110,7 @@ function draw () {
             ball.y -= ball.speed;
         }
     }
-    if(keyIsDown(W)){
+    if(keyIsDown(DOWN_ARROW)){
         if(keyIsDown(SHIFT)){
             ball.y += ball.boost;
         }else{
