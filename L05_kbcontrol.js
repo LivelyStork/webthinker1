@@ -73,8 +73,9 @@ function keyPressed() {
     // if (key === 't') {
     //     showTriangle = !showTriangle
     // }
-//     fill(shapeColor);
-//     circle(width/2, height/2, 100);
+    fill(shapeColor);
+    circle(width/2, height/2, 100);
+    
 }
 
 // function keyPressed() {
