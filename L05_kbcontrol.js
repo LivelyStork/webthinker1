@@ -1,14 +1,14 @@
-// let rancolor = 'blue'; 
+// write your codes here// let rancolor = 'blue'; 
 // let size = '10'
-// let x = 200
+let shapeColor = 'blue';
+
 let ball = {
-    x:300,
-    y:200,
+    x: 300,
+    y: 200,
     size:40,
     speed:5,
     boost:10
-}
-let shapeColor = 'blue';
+};
 function setup() {
     createCanvas(600, 400);
    // background(220);
@@ -49,27 +49,6 @@ function setup() {
 
 function draw () {
     background(220);
-    fill(shapeColor);
-    circle(ball.x, height/2, 100);
-    if(keyIsDown(LEFT_ARROW)){
-        if(keyIsDown)
-        ball.x-=5
-    }
-    if(keyIsDown(RIGHT_ARROW)){
-        ball.x+=5;
-    }
-    if(keyIsDown(UP_ARROW)){
-        ball.y-=5
-    }
-    if(keyIsDown(DOWN_ARROW)){
-        ball.y+=5;
-    }
-    if(ball.x<50){
-        ball.x=50
-    }
-    if(ball.x>width-50){
-        ball.x=width-50
-    }
     // if(showCircle) {
     //     circle(width/2, height/2, 100);
     // }
@@ -92,7 +71,7 @@ function draw () {
 //     }
 // }
 
-function keyPressed() {
+// function keyPressed() {
     // if(key === 'c') {
     //     showCircle = !showCircle;
     // }
@@ -102,17 +81,60 @@ function keyPressed() {
     // if (key === 't') {
     //     showTriangle = !showTriangle
     // }
+    fill(shapeColor);
+    //TAsk 1)declare var x = 200
+    //     
+    circle(ball.x, ball.y, ball.size);
+    
+    if(keyIsDown(LEFT_ARROW)){
+        if(keyIsDown(SHIFT)){
+            ball.x-= ball.boost; //10
+        }
+        else{
+            ball.x -=ball.speed; //5
+        }
+        
+    }
+    if(keyIsDown(RIGHT_ARROW)){
+        if(keyIsDown(SHIFT)){
+            ball.x += ball.boost;
+        }else{
+            ball.x += ball.speed;
+        }
+    }
+    if(keyIsDown(UP_ARROW)){
+        if(keyIsDown(SHIFT)){
+            ball.y -= ball.boost;
+        }else{
+            ball.y -= ball.speed;
+        }
+    }
+    if(keyIsDown(DOWN_ARROW)){
+        if(keyIsDown(SHIFT)){
+            ball.y += ball.boost;
+        }else{
+            ball.y += ball.speed;
+        }
+    }
+
+    if(ball.x <25){
+        ball.x=25;
+    }
+    if(ball.x>width -25){
+        ball.x = width -25;
+    }
+    //do for right arrow
     
 }
 
-// function keyPressed() {
-//     console.log("key: ", key);
-//     console.log("keyCode: ", keyCode);
+function keyPressed() {
+    console.log("key: ", key);
+    console.log("keyCode: ", keyCode);
 
-//     if(keyCode === 38) {
-//         shapeColor = 'red';
-//     }
-//     if (keyCode === 40) {
-//         shapeColor = 'black';
-//     }
+    if(keyCode === 38) {
+        shapeColor = 'red';
+    }
+    if (keyCode === 40) {
+        shapeColor = 'black';
+    }
 }
