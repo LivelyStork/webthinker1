@@ -1,7 +1,8 @@
 // write your codes here// let rancolor = 'blue'; 
 // let size = '10'
 let shapeColor = 'blue';
-
+let x = 200;
+let y =200;
 let ball = {
     x: 300,
     y: 200,
@@ -124,6 +125,8 @@ function draw () {
         ball.x = width -25;
     }
     //do for right arrow
+    ball.x = constrain(ball.x,0+20,width-20);
+    ball.y = constrain(ball.y, 0+20, height-20);
     
 }
 
