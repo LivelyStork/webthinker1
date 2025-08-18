@@ -66,11 +66,11 @@ function setup() {
 //     fill(255,0 ,0)
 //     circle(mouseX, mouseY, 30)
 // }
-function mouseDragged() {
-    shapeColor = color(random(255), random(255), random(255));
-    size = random(10, 50)
-    let mx = random(-30,30)
-    let my = random(-30,30)
-    fill(shapeColor)
-    circle(mouseX + mx, mouseY + my, size)
+// function mouseDragged() {
+//     shapeColor = color(random(255), random(255), random(255));
+//     size = random(10, 50)
+//     let mx = random(-30,30)
+//     let my = random(-30,30)
+//     fill(shapeColor)
+//     circle(mouseX + mx, mouseY + my, size)
 }
