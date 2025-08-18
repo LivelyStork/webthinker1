@@ -73,18 +73,18 @@ function draw () {
     // if (key === 't') {
     //     showTriangle = !showTriangle
     // }
-    fill(shapeColor);
-    circle(width/2, height/2, 100);
-}
+//     fill(shapeColor);
+//     circle(width/2, height/2, 100);
+// }
 
-function keyPressed() {
-    console.log("key: ", key);
-    console.log("keyCode: ", keyCode);
+// function keyPressed() {
+//     console.log("key: ", key);
+//     console.log("keyCode: ", keyCode);
 
-    if(keyCode === 38) {
-        shapeColor = 'red';
-    }
-    if (keyCode === 40) {
-        shapeColor = 'black';
-    }
+//     if(keyCode === 38) {
+//         shapeColor = 'red';
+//     }
+//     if (keyCode === 40) {
+//         shapeColor = 'black';
+//     }
 }
