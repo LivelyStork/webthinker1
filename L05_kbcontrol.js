@@ -69,6 +69,7 @@ function draw () {
     if(ball.x>width-50){
         ball.x=width-50
     }
+    
     // if(showCircle) {
     //     circle(width/2, height/2, 100);
     // }
