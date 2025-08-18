@@ -59,9 +59,9 @@ function draw () {
     }
     if(keyIsDown(UP_ARROW)){
         ball.y-=5
-        
     }
     if(keyIsDown(DOWN_ARROW)){
+        ball.y+=5;
     }
     if(x<50){
         x=50
