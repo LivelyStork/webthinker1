@@ -64,7 +64,7 @@ function draw () {
         ball.y+=5;
     }
     if(x<50){
-        x=50
+        ball.x=50
     }
     if(x>width-50){
         x=width-50
