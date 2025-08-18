@@ -54,7 +54,7 @@ function draw () {
         x=50
     }
     if(x>width-50){
-        x=50
+        x=width-50
     }
     // if(showCircle) {
     //     circle(width/2, height/2, 100);
