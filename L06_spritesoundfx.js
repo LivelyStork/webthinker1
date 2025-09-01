@@ -1,4 +1,5 @@
 let bgMusic, soundEffect, staticImage;
+let 
 
 function preload() {
     bgMusic = loadSound('assets/star_wars_theme_8_bit.mp3')
@@ -8,7 +9,7 @@ function preload() {
 
 function setup() {
     createCanvas(300,300)
-    // bgMusic.loop()
+    bgMusic.loop()
 }
 function draw() {
     background('lightblue')
