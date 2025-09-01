@@ -34,8 +34,8 @@ function draw() {
 }
 
 
-// function keyPressed() {
-    // if (keyCode === 32) {
-    //     soundEffect.play()
-    // }
-// } i can write what i want!!!! goofyah th
+function keyPressed() {
+    if (keyCode === 32) {
+        soundEffect.play()
+    }
+}
