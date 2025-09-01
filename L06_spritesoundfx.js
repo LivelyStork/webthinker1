@@ -1,7 +1,7 @@
 let bgMusic, soundEffect, staticImage;
 
 function preload() {
-    bgMusic = loadSound('assets/star_.mp3')
+    bgMusic = loadSound('assets/star_wars_theme_8_.mp3')
     soundEffect = loadSound('assets/pop.mp3')
     staticImage = loadImage('assets/pico-a.png')
 }
