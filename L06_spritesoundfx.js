@@ -2,7 +2,7 @@ let bgMusic, soundEffect, staticImage;
 
 function preload() {
     bgMusic = loadSound('assets/star_wars_theme_8_bit.mp3')
-    soundEffect = loadSound('assets/pop.mp3')
+    soundEffect = loadSound('assets/bossaNova.mp3')
     staticImage = loadImage('assets/pico-a.png')
 }
 
@@ -17,6 +17,6 @@ function draw() {
 
 function keyPressed() {
     if (keyCode === 32) {
-        soundEffect.play()
+        soundEffect.loop()
     }
 }
