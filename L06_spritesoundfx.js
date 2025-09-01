@@ -12,7 +12,7 @@ function preload() {
 
 function setup() {
     createCanvas(300,300);
-//     bgMusic.loop()
+    bgMusic.loop()
 }
 function draw() {
     background('lightblue');
@@ -38,4 +38,5 @@ function keyPressed() {
     if (keyCode === 32) {
         soundEffect.play()
     }
+    
 }
