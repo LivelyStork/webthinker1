@@ -1,11 +1,11 @@
-//let bgMusic, soundEffect;
+let bgMusic, soundEffect;
 let staticImage;
 let staticX = 0;
 let staticY = 0;
 let staticSpeed = 1;
 
 function preload() {
-    // bgMusic = loadSound('assets/star_wars_theme_8_bit.mp3')
+    bgMusic = loadSound('assets/star_wars_theme_8_bit.mp3')
     soundEffect = loadSound('assets/pop.mp3')
     staticImage = loadImage('assets/pico-a.png');
 }
