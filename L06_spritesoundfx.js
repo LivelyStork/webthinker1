@@ -1,1 +1,1 @@
-let soundEffect 
+let bgMusic, 
