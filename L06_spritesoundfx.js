@@ -15,6 +15,8 @@ function draw() {
     image(staticImage, 0, 0, 110, 133)
 }
 
-function keypressed() {
-    
+function keyPressed() {
+    if (keyCode === 32) {
+        
+    }
 }
