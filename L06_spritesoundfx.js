@@ -1,6 +1,7 @@
 let bgMusic, soundEffect, staticImage;
 let staticX = 0
-staticY = 
+staticY = 0
+staticSpeed;
 
 function preload() {
     bgMusic = loadSound('assets/star_wars_theme_8_bit.mp3')
