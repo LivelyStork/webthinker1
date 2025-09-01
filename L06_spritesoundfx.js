@@ -5,3 +5,5 @@ function preload() {
     soundEffect = loadSound('assets\pop.mp3')
     staticImage = loadImage('assets\pico-a.png')
 }
+
+function setup() {}
