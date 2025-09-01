@@ -8,5 +8,5 @@ function preload() {
 
 function setup() {
     createCanvas(300,300)
-    bgMusic.loop
+    bgMusic.loop()
 }
