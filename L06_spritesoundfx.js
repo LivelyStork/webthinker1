@@ -1,5 +1,5 @@
 let bgMusic, soundEffect, staticImage;
-let 
+let staticX
 
 function preload() {
     bgMusic = loadSound('assets/star_wars_theme_8_bit.mp3')
