@@ -37,5 +37,7 @@ function keyPressed() {
         picoWidth = picoWidth/2
         soundEffect.play()
     }
+}
+function keyReleased() {
     
 }
