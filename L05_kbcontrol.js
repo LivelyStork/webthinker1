@@ -158,14 +158,30 @@ function draw () {
 //     }
 ////////////////////////////////////////////
 
-let x = 200
+// Moving ball from left to right
+
+let x = 200; 
+
+function setup() {
+    createCanvas(400, 400); 
+}
+
 function draw() {
-    background(220)
-    if (keyIsDown(LEFT_ARROW)){
-        x-=2
+    background(220); 
+
+    if(keyIsDown(LEFT_ARROW)) {
+        x -=2; 
     }
-    if (keyIsDown(LEFT_ARROW)){
-        x-=2
+    if (keyIsDown(RIGHT_ARROW)) {
+        x +=2;
     }
-    circle(x,height/2,50);
+
+    if (x<25) {
+        x = 25; 
+    }
+    if (x>width-25) {
+        x = width-25;
+    }
+    circle(x, height/2, 50); 
+
 }
