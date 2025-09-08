@@ -160,7 +160,10 @@ function draw () {
 
 let x = 200
 function draw() {
-    back
+    background(220)
+    if (keyIsDown(LEFT_ARROW)){
+        x-=2
+    }
     if (keyIsDown(LEFT_ARROW)){
         x-=2
     }
