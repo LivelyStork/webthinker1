@@ -17,7 +17,7 @@ function draw() {
     background('lightblue');
     staticX = constrain(staticX,0,width-50);
     staticY = constrain(staticY,0,height-50);
-    image(staticImage, staticX, staticY, 50, 50);
+    image(staticImage, staticX, staticY, , 50);
     if(keyIsDown(LEFT_ARROW)) {
         staticX -=staticSpeed;
     }
