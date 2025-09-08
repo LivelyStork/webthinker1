@@ -17,7 +17,7 @@ function preload() {
 function draw() {
     background('lightblue');
     staticX = constrain(staticX,0,width-50);
-    staticY = constrain(staticY,0,height-50);
+    staticY = constrain(staticY,0,height-picoWidth);
     image(staticImage, staticX, staticY, picoWidth, 50);
     if(keyIsDown(LEFT_ARROW)) {
         staticX -=staticSpeed;
