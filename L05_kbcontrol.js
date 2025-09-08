@@ -203,6 +203,7 @@
 let x = 200; 
 let y = 200;
 y = constrain(y, 25, height-25)
+x = constrain(x,25,width-25)
 function setup() {
     createCanvas(400, 400); 
 }
@@ -216,7 +217,6 @@ function draw() {
     if (keyIsDown(RIGHT_ARROW)) {
         x +=2;
     }
-    x = constrain(x,25,width-25)
     if (keyIsDown(DOWN_ARROW)){
         y+=2
     }
