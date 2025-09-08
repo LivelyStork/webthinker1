@@ -50,5 +50,4 @@ let speedX = 5
 let speedY = 5
 function draw() {
     circle(x,y,side)
-    
 }
