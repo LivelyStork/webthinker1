@@ -40,6 +40,6 @@ function keyPressed() {
 }
 function keyReleased() {
     if(keyCode === 32) {
-        
+        picoWidth = 
     }
 }
