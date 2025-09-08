@@ -49,5 +49,6 @@ let size = 30
 let speedX = 5
 let speedY = 5
 function draw() {
-    circle()
+    circle(x,y,side)
+    
 }
