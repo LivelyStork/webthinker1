@@ -39,5 +39,7 @@ function keyPressed() {
     }
 }
 function keyReleased() {
-    
+    if(keyCode === 32) {
+        
+    }
 }
