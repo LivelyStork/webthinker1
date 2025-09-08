@@ -202,7 +202,7 @@
 // task 4
 let x = 200; 
 let y = 200;
-
+y = constrain(y, 25, height-25)
 function setup() {
     createCanvas(400, 400); 
 }
@@ -223,6 +223,5 @@ function draw() {
     if (keyIsDown(UP_ARROW)){
         y-=2
     }
-    y = constrain(y, 25, height-25)
     circle(x, y, 50); 
 }
