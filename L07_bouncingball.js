@@ -8,7 +8,7 @@ let soundEffect, staticImage;
 let staticX = 0;
 let staticY = 0;
 let staticSpeed = 1;
-let picoWidth =  
+let picoWidth = 50;
 
 function preload() {
     soundEffect = loadSound('assets/pop.mp3')
@@ -34,6 +34,6 @@ function draw() {
 }
 function keyPressed() {
     if(keyCode === 32) {
-        50/2
+        
     }
 }
