@@ -189,7 +189,7 @@ function draw() {
     if (keyIsDown(UP_ARROW)){
         y-=2
     }
-    if (y>)
+    if (y>height-25)
     circle(x, y, 50); 
 
 }
