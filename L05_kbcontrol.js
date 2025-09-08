@@ -140,20 +140,20 @@ function draw () {
 //     if (keyCode === 40) {
 //         shapeColor = 'black';
 //     }
-    circle(width/2,height/2,50);
+    // circle(width/2,height/2,50);
 }
 
-function keyPressed() {
-    if(key == 'w') {
-        shapeColor = 'white';
-    }
-    else if(key == 'r') {
-        shapeColor = 'red';
-    }
-    else if(key == 'g') {
-        shapeColor = 'green';
-    }
-    else{
-        shapeColor = 'yellow';
-    }
-}
+// function keyPressed() {
+//     if(key == 'w') {
+//         shapeColor = 'white';
+//     }
+//     else if(key == 'r') {
+//         shapeColor = 'red';
+//     }
+//     else if(key == 'g') {
+//         shapeColor = 'green';
+//     }
+//     else{
+//         shapeColor = 'yellow';
+//     }
+// }
