@@ -44,3 +44,4 @@ function setup() {
 //     }
 // }
 let x = 300
+let y = 200
