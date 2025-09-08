@@ -142,7 +142,7 @@ function draw () {
 //     }
 circle(width/2,height/2,50)
 function keyPressed() {
-    if(keyCode == 'w') {
+    if(key == 'w') {
         shapeColor = 'white'
     }
 }
