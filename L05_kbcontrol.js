@@ -145,12 +145,15 @@ function draw () {
 
 function keyPressed() {
     if(key == 'w') {
-        shapeColor = 'white'
+        shapeColor = 'white';
     }
     else if(key == 'r') {
-        shapeColor = 'red'
+        shapeColor = 'red';
     }
     else if(key == 'g') {
-        shapeColor = 'green'
+        shapeColor = 'green';
+    }
+    else{
+        shapeColor = 'white'
     }
 }
