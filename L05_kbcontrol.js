@@ -161,7 +161,7 @@
 // Moving ball from left, right, top and bottom
 
 let x = 200; 
-let y = 200
+let y = 200;
 
 function setup() {
     createCanvas(400, 400); 
