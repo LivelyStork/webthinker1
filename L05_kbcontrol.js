@@ -159,6 +159,7 @@ function draw () {
 ////////////////////////////////////////////
 
 let x = 200
+circle(XMLDocument,height/2,50);
 function draw() {
     if (keyIsDown(LEFT_ARROW))
         x-=2
