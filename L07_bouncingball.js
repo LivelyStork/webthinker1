@@ -8,6 +8,7 @@ let soundEffect, staticImage;
 let staticX = 0;
 let staticY = 0;
 let staticSpeed = 1;
+let picoWidth =  
 
 function preload() {
     soundEffect = loadSound('assets/pop.mp3')
