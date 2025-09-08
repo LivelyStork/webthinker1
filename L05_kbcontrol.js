@@ -202,13 +202,12 @@
 // task 4
 let x = 200; 
 let y = 200;
-y = constrain(y, 25, height-25)
-x = constrain(x,25,width-25)
 function setup() {
     createCanvas(400, 400); 
 }
 
 function draw() {
+    
     background(220); 
 
     if(keyIsDown(LEFT_ARROW)) {
