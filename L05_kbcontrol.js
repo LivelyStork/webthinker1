@@ -186,6 +186,6 @@ function draw() {
     if (keyIsDown(DOWN_ARROW)){
         x-=2
     }
-    circle(x, height/2, 50); 
+    circle(x, y, 50); 
 
 }
