@@ -147,7 +147,7 @@ function keyPressed() {
     if(key == 'w') {
         shapeColor = 'white'
     }
-     if(key == 'w') {
-        shapeColor = 'white'
+    else if(key == 'r') {
+        shapeColor = 'red'
     }
 }
