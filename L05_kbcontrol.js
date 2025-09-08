@@ -1,15 +1,15 @@
 // write your codes here// let rancolor = 'blue'; 
 // let size = '10'
 let shapeColor = 'blue';
-let x = 200;
-let y =200;
-let ball = {
-    x: 300,
-    y: 200,
-    size:40,
-    speed:5,
-    boost:10
-};
+// let x = 200;
+// let y =200;
+// let ball = {
+//     x: 300,
+//     y: 200,
+//     size:40,
+//     speed:5,
+//     boost:10
+// };
 function setup() {
     createCanvas(600, 400);
    // background(220);
@@ -149,5 +149,8 @@ function keyPressed() {
     }
     else if(key == 'r') {
         shapeColor = 'red'
+    }
+     if(key == 'w') {
+        shapeColor = 'white'
     }
 }
