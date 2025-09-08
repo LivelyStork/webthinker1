@@ -161,5 +161,5 @@ function draw () {
 let x = 200
 function draw() {
     if (keyIsDown(LEFT_ARROW))
-        x 
+        x-=2
 }
