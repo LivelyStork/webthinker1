@@ -216,13 +216,13 @@ function draw() {
     if (keyIsDown(RIGHT_ARROW)) {
         x +=2;
     }
-    x = constraint(x,25,width-25)
+    x = constrain(x,25,width-25)
     if (keyIsDown(DOWN_ARROW)){
         y+=2
     }
     if (keyIsDown(UP_ARROW)){
         y-=2
     }
-    y = constraint(y, 25, height-25)
+    y = constrain(y, 25, height-25)
     circle(x, y, 50); 
 }
