@@ -161,8 +161,8 @@ function draw () {
 let x = 200
 function draw() {
     
-    if (keyIsDown(LEFT_ARROW))
+    if (keyIsDown(LEFT_ARROW)){
         x-=2
-
+    }
     circle(x,height/2,50);
 }
