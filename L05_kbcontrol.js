@@ -48,8 +48,8 @@ function setup() {
 // let showSquare = false;
 // let showTriangle = false;
 
-function draw () {
-    background(220);
+// function draw () {
+//     background(220);
     // if(showCircle) {
     //     circle(width/2, height/2, 100);
     // }
@@ -82,7 +82,7 @@ function draw () {
     // if (key === 't') {
     //     showTriangle = !showTriangle
     // }
-    fill(shapeColor);
+    // fill(shapeColor);
     //TAsk 1)declare var x = 200
     //     
 //     circle(ball.x, ball.y, ball.size);
@@ -158,7 +158,7 @@ function draw () {
 //     }
 ////////////////////////////////////////////
 
-// Moving ball from left to right
+// Moving ball from left, right, top and bottom
 
 let x = 200; 
 
@@ -181,6 +181,9 @@ function draw() {
     }
     if (x>width-25) {
         x = width-25;
+    }
+    if (keyIsDown(DOWN_ARROW)){
+        x-=2
     }
     circle(x, height/2, 50); 
 
