@@ -1,6 +1,6 @@
 // write your codes here// let rancolor = 'blue'; 
 // let size = '10'
-let shapeColor = 'blue';
+//let shapeColor = 'blue';
 // let x = 200;
 // let y =200;
 // let ball = {
@@ -10,10 +10,10 @@ let shapeColor = 'blue';
 //     speed:5,
 //     boost:10
 // };
-function setup() {
-    createCanvas(600, 400);
+//function setup() {
+    //createCanvas(600, 400);
    // background(220);
-}
+//}
 
 // function mousePressed () {
 //     size = 10;
@@ -141,7 +141,7 @@ function setup() {
 //         shapeColor = 'black';
 //     }
     // circle(width/2,height/2,50);
-}
+//}
 
 // function keyPressed() {
 //     if(key == 'w') {
@@ -161,6 +161,7 @@ function setup() {
 // Moving ball from left, right, top and bottom
 
 let x = 200; 
+let y = 200
 
 function setup() {
     createCanvas(400, 400); 
