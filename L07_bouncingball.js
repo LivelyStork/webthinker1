@@ -7,7 +7,7 @@ let soundEffect, staticImage;
 
 let staticX = 0;
 let staticY = 0;
-let staticSpeed = 1;
+let staticSpeed = 5;
 let picoWidth = 50;
 
 function preload() {
