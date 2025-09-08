@@ -30,4 +30,5 @@ function draw() {
     if(keyIsDown(UP_ARROW)) {
         staticY -=staticSpeed;
     }
+    if(keyPressed )
 }
