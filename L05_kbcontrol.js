@@ -154,6 +154,6 @@ function keyPressed() {
         shapeColor = 'green';
     }
     else{
-        shapeColor = 'white'
+        shapeColor = 'yellow';
     }
 }
