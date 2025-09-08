@@ -52,4 +52,5 @@ function draw() {
     fill('black')
     circle(x,y,size)
     x = x - speedX
+    y = y + speedY
 }
