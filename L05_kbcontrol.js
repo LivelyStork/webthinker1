@@ -140,11 +140,14 @@ function draw () {
 //     if (keyCode === 40) {
 //         shapeColor = 'black';
 //     }
-circle(width/2,height/2,50)
+    circle(width/2,height/2,50);
 }
 
 function keyPressed() {
     if(key == 'w') {
+        shapeColor = 'white'
+    }
+     if(key == 'w') {
         shapeColor = 'white'
     }
 }
