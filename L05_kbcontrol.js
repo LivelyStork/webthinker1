@@ -160,6 +160,46 @@
 
 // Moving ball from left, right, top and bottom
 
+// let x = 200; 
+// let y = 200;
+
+// function setup() {
+//     createCanvas(400, 400); 
+// }
+
+// function draw() {
+//     background(220); 
+
+//     if(keyIsDown(LEFT_ARROW)) {
+//         x -=2; 
+//     }
+//     if (keyIsDown(RIGHT_ARROW)) {
+//         x +=2;
+//     }
+
+//     if (x<25) {
+//         x = 25; 
+//     }
+//     if (x>width-25) {
+//         x = width-25;
+//     }
+//     if (keyIsDown(DOWN_ARROW)){
+//         y+=2
+//     }
+//     if (keyIsDown(UP_ARROW)){
+//         y-=2
+//     }
+//     if (y>height-25) {
+//         y = height-25;
+//     }
+//     if (y<25) {
+//         y = 25;
+//     }
+//     circle(x, y, 50); 
+
+// }
+////////////////////////////////////////////////////////////////////
+// task 4
 let x = 200; 
 let y = 200;
 
@@ -196,6 +236,4 @@ function draw() {
         y = 25;
     }
     circle(x, y, 50); 
-
 }
-////////////////////////////////////////////////////////////////////
