@@ -35,6 +35,6 @@ function draw() {
 function keyPressed() {
     if(keyCode === 32) {
         picoWidth = picoWidth/2
-        
+        soundEffect.play
     }
 }
