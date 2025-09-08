@@ -229,6 +229,7 @@ function draw() {
     if (keyIsDown(UP_ARROW)){
         y-=2
     }
+    constraint(y, )
     y = constraint
     circle(x, y, 50); 
 }
