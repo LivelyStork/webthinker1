@@ -3,4 +3,5 @@ function setup() {
     background(220);
 }
 
-let soundEffect, staticImage
+let soundEffect, staticImage;
+
