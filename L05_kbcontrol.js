@@ -140,5 +140,5 @@ function draw () {
 //     if (keyCode === 40) {
 //         shapeColor = 'black';
 //     }
-circle(200)
+circle(width)
 }
