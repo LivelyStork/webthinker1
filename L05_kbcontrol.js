@@ -193,7 +193,7 @@ function draw() {
         y = height-25
     }
     if (y<25) {
-        
+        y = 25
     }
     circle(x, y, 50); 
 
