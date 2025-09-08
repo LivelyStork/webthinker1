@@ -216,7 +216,7 @@ function draw() {
     if (keyIsDown(RIGHT_ARROW)) {
         x +=2;
     }
-    x = constraint(x,)
+    x = constraint(x,25,width-25)
     if (keyIsDown(DOWN_ARROW)){
         y+=2
     }
