@@ -85,59 +85,59 @@ function draw () {
     fill(shapeColor);
     //TAsk 1)declare var x = 200
     //     
-    circle(ball.x, ball.y, ball.size);
+//     circle(ball.x, ball.y, ball.size);
     
-    if(keyIsDown(LEFT_ARROW)){
-        if(keyIsDown(SHIFT)){
-            ball.x-= ball.boost; //10
-        }
-        else{
-            ball.x -=ball.speed; //5
-        }
+//     if(keyIsDown(LEFT_ARROW)){
+//         if(keyIsDown(SHIFT)){
+//             ball.x-= ball.boost; //10
+//         }
+//         else{
+//             ball.x -=ball.speed; //5
+//         }
         
-    }
-    if(keyIsDown(RIGHT_ARROW)){
-        if(keyIsDown(SHIFT)){
-            ball.x += ball.boost;
-        }else{
-            ball.x += ball.speed;
-        }
-    }
-    if(keyIsDown(UP_ARROW)){
-        if(keyIsDown(SHIFT)){
-            ball.y -= ball.boost;
-        }else{
-            ball.y -= ball.speed;
-        }
-    }
-    if(keyIsDown(DOWN_ARROW)){
-        if(keyIsDown(SHIFT)){
-            ball.y += ball.boost;
-        }else{
-            ball.y += ball.speed;
-        }
-    }
+//     }
+//     if(keyIsDown(RIGHT_ARROW)){
+//         if(keyIsDown(SHIFT)){
+//             ball.x += ball.boost;
+//         }else{
+//             ball.x += ball.speed;
+//         }
+//     }
+//     if(keyIsDown(UP_ARROW)){
+//         if(keyIsDown(SHIFT)){
+//             ball.y -= ball.boost;
+//         }else{
+//             ball.y -= ball.speed;
+//         }
+//     }
+//     if(keyIsDown(DOWN_ARROW)){
+//         if(keyIsDown(SHIFT)){
+//             ball.y += ball.boost;
+//         }else{
+//             ball.y += ball.speed;
+//         }
+//     }
 
-    if(ball.x <25){
-        ball.x=25;
-    }
-    if(ball.x>width -25){
-        ball.x = width -25;
-    }
-    //do for right arrow
-    ball.x = constrain(ball.x,0+20,width-20);
-    ball.y = constrain(ball.y, 0+20, height-20);
+//     if(ball.x <25){
+//         ball.x=25;
+//     }
+//     if(ball.x>width -25){
+//         ball.x = width -25;
+//     }
+//     //do for right arrow
+//     ball.x = constrain(ball.x,0+20,width-20);
+//     ball.y = constrain(ball.y, 0+20, height-20);
     
-}
+// }
 
-function keyPressed() {
-    console.log("key: ", key);
-    console.log("keyCode: ", keyCode);
+// function keyPressed() {
+//     console.log("key: ", key);
+//     console.log("keyCode: ", keyCode);
 
-    if(keyCode === 38) {
-        shapeColor = 'red';
-    }
-    if (keyCode === 40) {
-        shapeColor = 'black';
-    }
+//     if(keyCode === 38) {
+//         shapeColor = 'red';
+//     }
+//     if (keyCode === 40) {
+//         shapeColor = 'black';
+//     }
 }
