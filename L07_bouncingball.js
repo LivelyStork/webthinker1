@@ -43,4 +43,4 @@ function setup() {
 //         picoWidth = picoWidth*2;
 //     }
 // }
-let 
+let x = 300
