@@ -7,10 +7,11 @@ function setup() {
     // text("My favorite activity is reading", 50,150);
 }
 let favFood = ["Rice", "Noodles", "Dumplings", "Sushi", "This is not accurate"]
+Yv
 function draw() {
     text("My Favorite Food:", 50, height)
     for(let food = 0; food<favFood.length; food++) {
         text((food+1) + ". " + favFood[food], 50, height+food*50)
-        
+
     }
 }
