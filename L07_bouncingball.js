@@ -43,7 +43,7 @@ function setup() {
 //         picoWidth = picoWidth*2;
 //     }
 // }
-let rancolor = rgb
+let rancolor = rgb(random)
 let x = 300
 let y = 200
 let size = 30
