@@ -2,4 +2,4 @@ function setup() {
     createCanvas(600,400);
     background(220);
 }
-Text('My name is Utkarsh', 50,50)
+Text("My name is Utkarsh", 50,50)
