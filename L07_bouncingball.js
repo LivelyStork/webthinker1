@@ -56,7 +56,7 @@ function draw() {
         speedY*=-1
     }
     noStroke()
-    fill('white')
+    FileList()
     circle(x,y,size)
     x = x + speedX
     y = y + speedY
