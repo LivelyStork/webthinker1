@@ -53,6 +53,7 @@ function draw() {
     if(x<=size/2 || x>=width-size/2) {
         speedX*=-1
     }
+    if(y<=si)
     noStroke()
     fill('white')
     circle(x,y,size)
