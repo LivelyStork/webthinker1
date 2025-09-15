@@ -42,8 +42,7 @@ function setup() {
 //     if(keyCode === 32) {
 //         picoWidth = picoWidth*2;
 //     }
-// }
-let rancolor = rgb(randomNumber())
+// }rgb(randomNumber(0,255))
 let x = 300
 let y = 200
 let size = 30
