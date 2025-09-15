@@ -4,5 +4,5 @@ function setup() {
     textSize(36)
     text("My name is Utkarsh", 50,50);
     text("My age is 12", 50,100);
-    text("My favorite activity is reading", 50,50);
+    text("My favorite activity is reading", 50,150);
 }
