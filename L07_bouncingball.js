@@ -59,7 +59,7 @@ function draw() {
         fill((randomNumber(0,255), randomNumber(0,255), randomNumber(0,255)))
     }
     noStroke()
-    fill((randomNumber(0,255), randomNumber(0,255), randomNumber(0,255)))
+    fill((randomNumber(0, 255), randomNumber(0,255), randomNumber(0,255)))
     circle(x,y,size)
     x = x + speedX
     y = y + speedY
