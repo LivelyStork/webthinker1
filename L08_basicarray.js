@@ -9,6 +9,7 @@ function setup() {
 let favFood = ["Rice", "Noodles", "Dumplings", "Sushi", "This is not accurate"]
 function draw() {
     background(220);
+    let valueY = height+50+food*50
     translate(width/2,valueY)
     for(let food = 0; food<favFood.length; food++) {
         valueY -=2*food
