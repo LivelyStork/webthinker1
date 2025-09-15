@@ -53,6 +53,6 @@ function draw() {
     noStroke()
     fill('white')
     circle(x + speedX,y + speedY,size)
-    // x = x + speedX
-    // y = y + speedY
+    x = x + speedX
+    y = y + speedY
 }
