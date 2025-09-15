@@ -7,7 +7,6 @@ function setup() {
     // text("My favorite activity is reading", 50,150);
 }
 let favFood = ["Rice", "Noodles", "Dumplings", "Sushi", "This is not accurate"]
-let food
 let valueY = 50+food*50
 function draw() {
     text("My Favorite Food:", 50, height)
