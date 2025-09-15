@@ -7,3 +7,6 @@ function setup() {
     // text("My favorite activity is reading", 50,150);
 }
 
+function draw() {
+    
+}
