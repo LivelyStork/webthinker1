@@ -57,6 +57,7 @@ function draw() {
     }
     if(y<=size/2 || y>=height-size/2) {
         speedY*=-1
+        rancolor = color(random(255), random(255), random(255));
     }
     noStroke()
     fill(rancolor)
