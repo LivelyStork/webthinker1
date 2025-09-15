@@ -11,7 +11,6 @@ function draw() {
     background(220);
     translate(width/2,valueY)
     for(let food = 0; food<favFood.length; food++) {
-        let valueY = height+50+food*50
         valueY -=2*food
         text("My Favorite Food:", 50, height)
         text((food+1) + ". " + favFood[food], 50, valueY)
