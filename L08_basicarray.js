@@ -8,7 +8,8 @@ function setup() {
 }
 let favFood = ["Rice", "Noodles", "Dumplings", "Sushi", "This is not accurate"]
 function draw() {
-    for(let food = 0; food<favFood.length; food++) {\
+    for(let food = 0; food<favFood.length; food++) {
+        let valueY = height+50+food*50
         valueY -=2
         text("My Favorite Food:", 50, height)
         text((food+1) + ". " + favFood[food], 50, valueY)
