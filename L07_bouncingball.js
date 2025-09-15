@@ -49,7 +49,6 @@ let size = 30
 let speedX = 5
 let speedY = 5
 function draw() {
-    background(220)
     if(x<=size/2 || x>=width-size/2) {
         speedX*=-1
     }
