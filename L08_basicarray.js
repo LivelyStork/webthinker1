@@ -2,5 +2,5 @@ function setup() {
     createCanvas(600,400);
     background(220);
 }
-textSize()
+textSize(36)
 Text("My name is Utkarsh", 50,50)
