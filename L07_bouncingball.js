@@ -50,7 +50,7 @@ let speedX = 5
 let speedY = 5
 function draw() {
     background(220)
-    
+    fill
     circle(x + speedX,y + speedY,size)
     x = x + speedX
     y = y + speedY
