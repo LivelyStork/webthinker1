@@ -8,5 +8,5 @@ function setup() {
 }
 let favFood = [Rice, Noodles, Dumplings, Sushi]
 function draw() {
-
+    
 }
