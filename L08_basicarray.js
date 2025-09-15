@@ -9,6 +9,6 @@ function setup() {
 let favFood = [Rice, Noodles, Dumplings, Sushi]
 function draw() {
     for(let food = 0; food<favFood.length; food++) {
-        text((food+1) + ". " )
+        text((food+1) + ". " + favFood)
     }
 }
