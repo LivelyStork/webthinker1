@@ -48,7 +48,7 @@ let y = 200
 let size = 30
 let speedX = 5
 let speedY = 5
-let rancolor = color(random(255), random(255), random(255));
+let rancolor = 'blue';
 
 function draw() {
     if(x<=size/2 || x>=width-size/2) {
@@ -59,9 +59,10 @@ function draw() {
         speedY*=-1
         rancolor = color(random(255), random(255), random(255));
     }
-    noStroke()
-    fill(rancolor)
-    circle(x,y,size)
-    x = x + speedX
-    y = y + speedY
+    x = x + speedX;
+    y = y + speedY;
+    noStroke();
+    fill(rancolor);
+    circle(x,y,size);
+    
 }
