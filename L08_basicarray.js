@@ -1,6 +1,6 @@
 function setup() {
     createCanvas(600,400);
-    background(220);
+   
     textSize(36)
     // text("My name is Utkarsh", 50,50);
     // text("My age is 12", 50,100);
@@ -8,6 +8,10 @@ function setup() {
 }
 let favFood = ["Rice", "Noodles", "Dumplings", "Sushi", "This is not accurate"]
 function draw() {
+
+    background(220);
+
+    
     for(let food = 0; food<favFood.length; food++) {
         let valueY = height+50+food*50
         valueY -=2*food
