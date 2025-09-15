@@ -3,4 +3,4 @@ function setup() {
     background(220);
 }
 textSize(36)
-text("My name is Utkarsh", 50,50)
+text("My name is Utkarsh", 50,50);
