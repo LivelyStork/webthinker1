@@ -43,12 +43,12 @@ function setup() {
 //         picoWidth = picoWidth*2;
 //     }
 // }
-let rancolor = color(random(255), random(255), random(255))
 let x = 300
 let y = 200
 let size = 30
 let speedX = 5
 let speedY = 5
+let rancolor = color(random(255), random(255), random(255))
 function draw() {
     if(x<=size/2 || x>=width-size/2) {
         speedX*=-1
