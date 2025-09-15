@@ -6,7 +6,7 @@ function setup() {
     // text("My age is 12", 50,100);
     // text("My favorite activity is reading", 50,150);
 }
-let favFood = [Rice, Noodles, Dumplings, Sushi]
+let favFood = ["Rice", "Noodles", "Dumplings", "Sushi"]
 function draw() {
     for(let food = 0; food<favFood.length; food++) {
         text((food+1) + ". " + favFood[food], 50, 50*food)
