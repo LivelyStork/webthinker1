@@ -54,7 +54,7 @@ function draw() {
         speedX*=-1
     }
     if(y<=size/2 || y>=height-size/2) {
-        speedY
+        speedY*=-1
     }
     noStroke()
     fill('white')
