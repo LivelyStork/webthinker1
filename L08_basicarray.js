@@ -8,6 +8,7 @@ function setup() {
 }
 let favFood = ["Rice", "Noodles", "Dumplings", "Sushi"]
 function draw() {
+    text("ma")
     for(let food = 0; food<favFood.length; food++) {
         text((food+1) + ". " + favFood[food], 50, 50+food*50)
     }
