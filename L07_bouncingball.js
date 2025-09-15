@@ -52,7 +52,7 @@ function draw() {
     background(220)
     noStroke()
     fill('white')
-    circle(x + speedX,y + speedY,size)
+    circle(x,y,size)
     x = x + speedX
     y = y + speedY
 }
