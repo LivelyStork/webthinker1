@@ -43,6 +43,7 @@ function setup() {
 //         picoWidth = picoWidth*2;
 //     }
 // }
+rancolor
 let x = 300
 let y = 200
 let size = 30
@@ -56,7 +57,7 @@ function draw() {
         speedY*=-1
     }
     noStroke()
-    FileList()
+    fill()
     circle(x,y,size)
     x = x + speedX
     y = y + speedY
