@@ -4,3 +4,5 @@ function setup() {
 }
 textSize(36)
 text("My name is Utkarsh", 50,50);
+text("My name is Utkarsh", 50,50);
+text("My name is Utkarsh", 50,50);
