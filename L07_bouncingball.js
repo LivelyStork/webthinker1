@@ -53,7 +53,7 @@ let rancolor = color(random(255), random(255), random(255));
 function draw() {
     if(x<=size/2 || x>=width-size/2) {
         speedX*=-1
-        rand
+        rancolor = color(random(255), random(255), random(255));
     }
     if(y<=size/2 || y>=height-size/2) {
         speedY*=-1
