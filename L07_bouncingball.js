@@ -43,6 +43,7 @@ function setup() {
 //         picoWidth = picoWidth*2;
 //     }
 // }
+let Ran
 let x = 300
 let y = 200
 let size = 30
