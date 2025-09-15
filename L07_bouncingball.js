@@ -52,11 +52,9 @@ let speedY = 5
 function draw() {
     if(x<=size/2 || x>=width-size/2) {
         speedX*=-1
-        fill(rancolor)
     }
     if(y<=size/2 || y>=height-size/2) {
         speedY*=-1
-        fill(rancolor)
     }
     noStroke()
     fill(rancolor)
