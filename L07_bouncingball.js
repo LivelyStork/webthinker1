@@ -56,10 +56,10 @@ function draw() {
     }
     if(y<=size/2 || y>=height-size/2) {
         speedY*=-1
-        fill((randomNumber(0,255), randomNumber(0,255), randomNumber(0,255)))
+        fill(rancolor)
     }
     noStroke()
-    fill((randomNumber(0,255), randomNumber(0,255), randomNumber(0,255)))
+    fill(rancolor)
     circle(x,y,size)
     x = x + speedX
     y = y + speedY
