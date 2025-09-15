@@ -51,7 +51,7 @@ let speedY = 5
 function draw() {
     background(220)
     if(x<=size/2 || x>=width-size/2) {
-        
+        speedX*=-1
     }
     noStroke()
     fill('white')
