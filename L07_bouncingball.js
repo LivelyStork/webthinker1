@@ -53,7 +53,9 @@ function draw() {
     if(x<=size/2 || x>=width-size/2) {
         speedX*=-1
     }
-    if(y<=size/2 || y>=height-size/2)
+    if(y<=size/2 || y>=height-size/2) {
+        speedY
+    }
     noStroke()
     fill('white')
     circle(x,y,size)
