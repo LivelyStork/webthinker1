@@ -6,7 +6,7 @@ function setup() {
     // text("My age is 12", 50,100);
     // text("My favorite activity is reading", 50,150);
 }
-let favFood = [Rice]
+let favFood = [Rice, Noodles, ]
 function draw() {
 
 }
