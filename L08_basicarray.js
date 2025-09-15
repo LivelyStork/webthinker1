@@ -12,6 +12,6 @@ function draw() {
     text("My Favorite Food:", 50, height)
     for(let food = 0; food<favFood.length; food++) {
         text((food+1) + ". " + favFood[food], 50, valueY)
-
+        valueY -=2
     }
 }
