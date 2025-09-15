@@ -11,7 +11,7 @@ let valueY = height+food*50
 function draw() {
     text("My Favorite Food:", 50, height)
     for(let food = 0; food<favFood.length; food++) {
-        text((food+1) + ". " + favFood[food], 50, height+food*50)
+        text((food+1) + ". " + favFood[food], 50, valueY)
 
     }
 }
