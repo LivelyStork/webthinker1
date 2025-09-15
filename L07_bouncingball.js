@@ -51,10 +51,11 @@ let speedY = 5
 function draw() {
     if(x<=size/2 || x>=width-size/2) {
         speedX*=-1
-        
+        fill(rgb(randomNumber(0,255), randomNumber(0,255), randomNumber(0,255)))
     }
     if(y<=size/2 || y>=height-size/2) {
         speedY*=-1
+        fill(rgb(randomNumber(0,255), randomNumber(0,255), randomNumber(0,255)))
     }
     noStroke()
     fill(rgb(randomNumber(0,255), randomNumber(0,255), randomNumber(0,255)))
