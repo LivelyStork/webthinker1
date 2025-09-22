@@ -1,1 +1,28 @@
-// write your codes here
+let favFood = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"]; 
+let yPos; 
+
+function setup() {
+    createCanvas(600, 400); 
+    
+    textSize(24); 
+    textAlign(CENTER, CENTER); 
+    yPos = height; 
+    fill(255, 255, 0); 
+}
+
+function draw() {
+    
+
+    background(0); 
+    
+    translate(width/2,yPos); 
+    scale(1,3); 
+
+    yPos -= 0.8;  
+
+    text("My favourite foods are: ", 0, 0); 
+    for(let i=0; i<favFood.length; i++) {
+        text((i+1) + "." + favFood[i], 0, 50 + i*30); 
+        //text((i+1) + "." + favFood[i], 50 + i*100, 80); 
+    }
+}
