@@ -10,5 +10,7 @@ function draw () {
     if (xPos > 600) {
         xPos -=5
     }
-    if (xPos < 0 )
+    if (xPos < 0) {
+        xPos +=5
+    }
 }
