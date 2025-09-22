@@ -33,10 +33,10 @@
 //     text(timeString, width/2, height/2)
 // }
 
-// function setup () {
-//     createCanvas(600,400);
-//     background(220)
-//     fill(0)
-//     textSize(50)
-//     textAlign(CENTER, CENTER)
-// }
+function setup () {
+    createCanvas(600,400);
+    background(220)
+    fill(0)
+    textSize(50)
+    textAlign(CENTER, CENTER)
+}
