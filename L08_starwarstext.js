@@ -14,7 +14,9 @@ function draw() {
     
 
     background(0); 
-    while (yPos == height - 600)
+    while (yPos == height - 600) {
+        
+    }
     translate(width/2,yPos); 
     scale(1,3); 
 
