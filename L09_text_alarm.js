@@ -3,7 +3,7 @@ function setup () {
     createCanvas(600,400);
     background(220)
 }
-
+xPos +=5
 function draw () {
     if (xPos > 590) {
         xPos -=5
