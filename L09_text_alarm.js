@@ -22,6 +22,7 @@ function setup () {
     textAlign(CENTER, CENTER)
 }
 
+ci
 function draw() {
     background(220)
 
