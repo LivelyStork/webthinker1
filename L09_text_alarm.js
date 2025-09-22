@@ -10,4 +10,5 @@ function draw () {
     if (xPos > 600) {
         xPos -=5
     }
+    i
 }
