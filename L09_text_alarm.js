@@ -22,7 +22,6 @@ function setup () {
     textAlign(CENTER, CENTER)
 }
 
-CSSNumericValue()
 function draw() {
     background(220)
 
