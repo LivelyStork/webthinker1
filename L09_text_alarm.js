@@ -53,5 +53,7 @@ function mousePressed() {
 function countDownUpdate() {
     if(countdown > 0) {
         countdown -=1
+    } else {
+        c
     }
 }
