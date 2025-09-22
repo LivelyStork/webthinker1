@@ -3,8 +3,8 @@ let yPos;
 
 function setup() {
     createCanvas(600, 400); 
-    let  = 24
-    textSize(24); 
+    let tSize = 24
+    textSize(tSize); 
     textAlign(CENTER, CENTER); 
     yPos = height; 
     fill(255, 255, 0); 
