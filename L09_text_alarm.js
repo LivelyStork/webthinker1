@@ -13,4 +13,5 @@ function draw () {
     if (xPos < 0) {
         xPos +=5
     }
+    background(220)
 }
