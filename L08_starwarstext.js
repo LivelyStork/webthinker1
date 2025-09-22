@@ -1,9 +1,9 @@
 let favFood = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"]; 
 let yPos; 
+let tSize = 24
 
 function setup() {
     createCanvas(600, 400); 
-    let tSize = 24
     textSize(tSize); 
     textAlign(CENTER, CENTER); 
     yPos = height; 
