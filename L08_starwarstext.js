@@ -25,7 +25,7 @@ function draw() {
             text((i+1) + "." + favFood[i], 0, 50 + i*30); 
             //text((i+1) + "." + favFood[i], 50 + i*100, 80); 
         }
-    if (yPos <= -(50 + favFood.length*30 + tSize/2)) {
+    if (yPos <= -(50 + favFood.length*30 + tSize/2 + height)) {
         yPos = height
 
         translate(width/2,yPos); 
