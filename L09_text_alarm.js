@@ -9,7 +9,7 @@ function draw () {
         xPos -=5
     }
     if (xPos < 10) {
-        xPos +=5
+        xPos +=10
     }
     background(220)
     text("Bounce!", xPos, 200)
