@@ -45,6 +45,7 @@ function setup () {
 }
 
 function draw() {
+    background(220)
     text("Click me to start timer", width/2, height-50 )
     text(countdown, width/2, height/2)
 }
