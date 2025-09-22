@@ -27,5 +27,5 @@ function draw() {
     let s = second()
 
     let timeString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2)
-    text(timeString)
+    text(timeString, width/2, height/2)
 }
