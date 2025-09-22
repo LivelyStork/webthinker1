@@ -6,10 +6,7 @@ function setup () {
 }
 
 function draw () {
-    if (xPos > 590) {
-        speed *=-1
-    }
-    if (xPos < 10) {
+    if (xPos > 590 || xPos < 10) {
         speed *=-1
     }
     background(220)
