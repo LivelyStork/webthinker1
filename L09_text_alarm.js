@@ -9,7 +9,7 @@
 //     background(220)
 //     text("Bounce!", xPos, 200)
 //     xPos += speed
-//     if (xPos > 550 || xPos < 0) {
+    if (xPos > 550 || xPos < 0) {
 //         speed *=-1
 //     }
 // }
