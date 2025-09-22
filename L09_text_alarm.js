@@ -5,7 +5,6 @@ function setup () {
 }
 
 function draw () {
-    xPos += 5
     if (xPos > 590) {
         xPos -=5
     }
