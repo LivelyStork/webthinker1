@@ -28,6 +28,7 @@ function draw() {
     if (yPos <= -200) {
         translate(width/2,yPos); 
         scale(1,3); 
+        yp
 
         yPos -= 0.8;  
 
