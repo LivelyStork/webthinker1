@@ -40,3 +40,7 @@ function setup () {
     textSize(50)
     textAlign(CENTER, CENTER)
 }
+
+function draw() {
+    
+}
