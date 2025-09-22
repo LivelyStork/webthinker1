@@ -14,4 +14,5 @@ function draw () {
         text("Bounce!", xPos, 200)
     }
     background(220)
+    text("Bounce!", xPos, 200)
 }
