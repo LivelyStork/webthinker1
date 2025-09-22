@@ -46,7 +46,4 @@ function draw() {
         text((i+1) + "." + favFood[i], 0, 50 + i*30); 
         //text((i+1) + "." + favFood[i], 50 + i*100, 80); 
     }
-   
-    
-    
 }
