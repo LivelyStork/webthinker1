@@ -17,7 +17,8 @@
 function setup () {
     createCanvas(600,400);
     background(220)
-    
+    fill(0)
+    text
 }
 
 function draw() {
