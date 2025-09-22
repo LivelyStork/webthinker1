@@ -42,5 +42,5 @@ function setup () {
 }
 
 function draw() {
-    text("Click me to start timer." )
+    text("Click me to start timer", width )
 }
