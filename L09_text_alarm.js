@@ -42,5 +42,5 @@ function setup () {
 }
 
 function draw() {
-    text("")
+    text("Click me ")
 }
