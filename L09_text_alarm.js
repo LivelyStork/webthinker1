@@ -22,7 +22,7 @@ function setup () {
     textAlign(CENTER, CENTER)
 }
 
-ci
+circ
 function draw() {
     background(220)
 
