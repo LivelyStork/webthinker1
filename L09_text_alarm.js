@@ -10,7 +10,7 @@ function draw () {
         speed *=-1
     }
     if (xPos < 10) {
-        xPos +=5
+        speed *=-1
     }
     background(220)
     text("Bounce!", xPos, 200)
