@@ -5,10 +5,10 @@ function setup () {
 }
 
 function draw () {
-    if (xPos > 600) {
+    if (xPos > 590) {
         xPos -=5
     }
-    if (xPos < 0) {
+    if (xPos < 10) {
         xPos +=5
     }
     background(220)
