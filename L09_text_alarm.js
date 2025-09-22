@@ -34,7 +34,7 @@
 // }
 
 let countdown = 5
-interval
+let interval
 
 function setup () {
     createCanvas(600,400);
