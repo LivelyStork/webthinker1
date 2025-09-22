@@ -1,5 +1,5 @@
 let xPos = 0
-let speed = 5
+let speed = 3
 function setup () {
     createCanvas(600,400);
     background(220)
