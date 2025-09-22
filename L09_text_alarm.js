@@ -26,5 +26,5 @@ function draw() {
     let m = minute()
     let s = second()
 
-    let timeString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2) + 
+    let timeString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2)
 }
