@@ -26,5 +26,5 @@ function draw() {
     let m = minute()
     let s = second()
 
-    let time
+    let timeString = nf
 }
