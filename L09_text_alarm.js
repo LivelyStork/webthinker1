@@ -45,3 +45,7 @@ function draw() {
     text("Click me to start timer", width/2, height-50 )
     text(countdown, width/2, height/2)
 }
+
+function mousePressed() {
+    
+}
