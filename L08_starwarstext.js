@@ -26,9 +26,10 @@ function draw() {
             //text((i+1) + "." + favFood[i], 50 + i*100, 80); 
         }
     if (yPos <= -200) {
+
+        
         translate(width/2,yPos); 
         scale(1,3); 
-        yp
 
         yPos -= 0.8;  
 
