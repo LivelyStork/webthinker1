@@ -1,15 +1,16 @@
-let xPos = 0
-let speed = 3
-function setup () {
-    createCanvas(600,400);
-    background(220)
-}
+// let xPos = 0
+// let speed = 3
+// function setup () {
+//     createCanvas(600,400);
+//     background(220)
+// }
 
-function draw () {
-    background(220)
-    text("Bounce!", xPos, 200)
-    xPos += speed
-    if (xPos > 550 || xPos < 0) {
-        speed *=-1
-    }
-}
+// function draw () {
+//     background(220)
+//     text("Bounce!", xPos, 200)
+//     xPos += speed
+//     if (xPos > 550 || xPos < 0) {
+//         speed *=-1
+//     }
+// }
+
