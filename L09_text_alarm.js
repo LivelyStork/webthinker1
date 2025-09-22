@@ -19,7 +19,7 @@ function setup () {
     background(220)
     fill(0)
     textSize(50)
-    textAlign(CENTER)
+    textAlign(CustomElementRegistry, )
 }
 
 function draw() {
