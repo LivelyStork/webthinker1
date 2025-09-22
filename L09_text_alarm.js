@@ -40,12 +40,12 @@ function setup () {
     createCanvas(600,400);
     background(220)
     fill(0)
-    textSize(50)
     textAlign(CENTER, CENTER)
 }
 
 function draw() {
     background(220)
+    textSize(50)
     text("Click me to start timer", width/2, height-50 )
     textSize(100)
     text(countdown, width/2, height/2)
