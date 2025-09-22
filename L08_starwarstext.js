@@ -15,9 +15,7 @@ function draw() {
 
     background(0); 
     while (yPos == height - 600) {
-        
-    }
-    translate(width/2,yPos); 
+        translate(width/2,yPos); 
     scale(1,3); 
 
     yPos -= 0.8;  
@@ -26,5 +24,6 @@ function draw() {
     for(let i=0; i<favFood.length; i++) {
         text((i+1) + "." + favFood[i], 0, 50 + i*30); 
         //text((i+1) + "." + favFood[i], 50 + i*100, 80); 
+    }
     }
 }
