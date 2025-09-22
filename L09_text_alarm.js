@@ -19,7 +19,7 @@ function setup () {
     background(220)
     fill(0)
     textSize(50)
-    
+    textAlign(CENTER)
 }
 
 function draw() {
