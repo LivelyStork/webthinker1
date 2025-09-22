@@ -7,6 +7,6 @@ function setup () {
 function draw () {
     text("Bounce!", xPos, 200)
     if (xPos > 600) {
-        
+        xPos -= 5
     }
 }
