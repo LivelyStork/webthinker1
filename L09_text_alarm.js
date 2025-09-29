@@ -69,7 +69,7 @@ function countDownUpdate() {
 }
 
 function timerAfter() {
-        bgmusic.play
-        back = color(random(255), random(255), random(255))
-        background(back)
+bgmusic.play
+            back = color(random(255), random(255), random(255))
+            background(back)
 }
