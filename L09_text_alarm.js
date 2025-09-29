@@ -127,6 +127,12 @@ function draw() {
     text("Click me to start timer", width/2, height-20 );
     textSize(100);
     text(countdown, width/2, 300);
+    let h = hour()
+    let m = minute()
+    let s = second()
+
+    let timeString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2)
+    text(timeString, width/2, height/2)
 }
 
 function mousePressed() {
