@@ -9,5 +9,6 @@ function setup() {
 }
  function draw() {
     background(bgcolor)
-    let s = 59 - second
+    let s = 59 - second()
+    
  }
