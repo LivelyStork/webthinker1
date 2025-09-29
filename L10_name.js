@@ -1,1 +1,2 @@
-let bgColor
+let bgColor = 'gray'
+let interval
