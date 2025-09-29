@@ -71,6 +71,7 @@ function countDownUpdate() {
 function timerAfter() {
     if(countdown = 0) {
         bgmusic.play
+        back = color(random(255), random(255), random(255))
         background(rgb(random(0,225),random(0,225),random(0,225)))
     }
 }
