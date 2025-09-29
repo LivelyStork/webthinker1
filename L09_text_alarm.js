@@ -42,13 +42,13 @@ let back = 'gray'
 
 function setup () {
     createCanvas(600,400);
-    background(220)
+    background(back)
     fill(0)
     textAlign(CENTER, CENTER)
 }
 
 function draw() {
-    background(220)
+    background(back)
     textSize(50)
     text("Click me to start timer", width/2, height-50 )
     textSize(100)
