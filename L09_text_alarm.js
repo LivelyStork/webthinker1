@@ -85,14 +85,6 @@
 
 // ----------------------------------------------------
 
-function setup () {
-    createCanvas(600,400);
-    background(220)
-    fill(0)
-    textSize(50)
-    textAlign(CENTER, CENTER)
-}
-
 function draw() {
     background(220)
 
@@ -127,7 +119,7 @@ function draw() {
     text("Click me to start timer", width/2, height-20 );
     textSize(100);
     text(countdown, width/2, 300);
-    
+
     let h = hour()
     let m = minute()
     let s = second()
