@@ -124,7 +124,7 @@ function setup () {
 function draw() {
     background(back);
     textSize(50);
-    text("Click me to start timer", width/2, height-50 );
+    text("Click me to start timer", width/2, height-20 );
     textSize(100);
     text(countdown, width/2, 300);
 }
