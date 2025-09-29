@@ -40,6 +40,8 @@ let bgmusic
 bgmusic = loadSound('assets/bossaNova.mp3')
 let back
 
+function preload() {}
+
 function setup () {
     createCanvas(600,400);
     background(220)
