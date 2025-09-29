@@ -51,7 +51,7 @@ function setup () {
 }
 
 function draw() {
-    background();
+    background(back);
     textSize(50);
     text("Click me to start timer", width/2, height-50 );
     textSize(100);
