@@ -59,6 +59,10 @@ function mousePressed() {
     interval = setInterval(countDownUpdate, 1000)
 }
 
+function keyPressed () {
+    
+}
+
 function countDownUpdate() {
     if(countdown > 0) {
         countdown -=1
