@@ -7,3 +7,6 @@ function setup() {
     textAlign(CENTER,CENTER)
     interval = setInterval(changeBg, 1000)
 }
+ function draw() {
+    
+ }
