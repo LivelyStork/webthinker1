@@ -1,4 +1,4 @@
-let bgColor = 'gray'
+let bgcolor = 'gray'
 let interval
 
 function setup() {
