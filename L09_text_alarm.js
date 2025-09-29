@@ -59,7 +59,7 @@ function draw() {
 }
 
 function mousePressed() {
-    interval = setInterval(countDownUpdate, 1000)
+    interval = setInterval(countDownUpdate, 1000);
 }
 
 function keyPressed () {
@@ -73,7 +73,7 @@ function countDownUpdate() {
         countdown -=1
     } else {
         clearInterval(interval)
-        intervalAfter = setInterval(timerAfter, 500)
+        intervalAfter = setInterval(timerAfter, 500);
     }
 }
 
