@@ -60,8 +60,8 @@ function mousePressed() {
 }
 
 function keyPressed () {
-    if(keycode === 32) {
-        bgmusic.paused
+    if(keycode == 32) {
+        bgmusic.stop
     }
 }
 
