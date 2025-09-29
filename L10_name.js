@@ -13,3 +13,7 @@ function setup() {
     textSize(100)
     text(s, width/2, height/2)
  }
+
+ function changeBg() {
+    
+ }
