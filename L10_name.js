@@ -8,5 +8,5 @@ function setup() {
     interval = setInterval(changeBg, 1000)
 }
  function draw() {
-    
+    background(bgcolor)
  }
