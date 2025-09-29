@@ -38,7 +38,6 @@ let interval
 let intervalAfter
 let bgmusic
 bgmusic = loadSound('assets/bossaNova.mp3')
-let back = color(random(255), random(255), random(255))
 
 function setup () {
     createCanvas(600,400);
@@ -69,6 +68,7 @@ function countDownUpdate() {
 }
 
 function timerAfter() {
+    let back = color(random(255), random(255), random(255))
     if(countdown = 0) {
         bgmusic.play
         background(rgb(random(0,225),random(0,225),random(0,225)))
