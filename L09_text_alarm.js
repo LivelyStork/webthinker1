@@ -37,10 +37,10 @@ let countdown = 5;
 let interval;
 let intervalAfter;
 let bgmusic;
-let back
+let back;
 
 function preload() {
-    bgmusic = loadSound('assets/bossaNova.mp3')
+    bgmusic = loadSound('assets/bossaNova.mp3');
 }
 
 function setup () {
