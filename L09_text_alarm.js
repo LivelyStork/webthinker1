@@ -64,7 +64,7 @@ function mousePressed() {
 
 function keyPressed () {
     if(keycode == 32) {
-        clearInterval(intervalAfter)
+        clearInterval(intervalAfter);
     }
 }
 
@@ -72,13 +72,13 @@ function countDownUpdate() {
     if(countdown > 0) {
         countdown -=1
     } else {
-        clearInterval(interval)
+        clearInterval(interval);
         intervalAfter = setInterval(timerAfter, 500);
     }
 }
 
 function timerAfter() {
-    bgmusic.play
-    back = color(random(255), random(255), random(255))
-    background(back)
+    bgmusic.play();
+    back = color(random(255), random(255), random(255));
+    background(back);
 }
