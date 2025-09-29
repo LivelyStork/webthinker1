@@ -11,5 +11,5 @@ function setup() {
     background(bgcolor)
     let s = 59 - second()
     textSize(100)
-    text(s,)
+    text(s, width/2, height/2)
  }
