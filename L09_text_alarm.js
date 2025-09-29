@@ -78,7 +78,7 @@ function countDownUpdate() {
 }
 
 function timerAfter() {
-    bgmusic.play();
+    // bgmusic.play();
     back = color(random(255), random(255), random(255));
   
 }
