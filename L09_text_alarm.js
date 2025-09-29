@@ -38,17 +38,17 @@ let interval
 let intervalAfter
 let bgmusic
 bgmusic = loadSound('assets/bossaNova.mp3')
-let back = 'gray'
+let back
 
 function setup () {
     createCanvas(600,400);
-    background(back)
+    background(220)
     fill(0)
     textAlign(CENTER, CENTER)
 }
 
 function draw() {
-    background(back)
+    background(220)
     textSize(50)
     text("Click me to start timer", width/2, height-50 )
     textSize(100)
