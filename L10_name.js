@@ -9,4 +9,5 @@ function setup() {
 }
  function draw() {
     background(bgcolor)
+    let s = 59
  }
