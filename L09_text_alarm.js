@@ -66,6 +66,6 @@ function countDownUpdate() {
 
 function timerAfter() {
     if(countdown = 0) {
-        pl
+        
     }
 }
