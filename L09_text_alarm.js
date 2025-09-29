@@ -33,10 +33,10 @@
 //     text(timeString, width/2, height/2)
 // }
 
-let countdown = 5
-let interval
-let intervalAfter
-let bgmusic
+let countdown = 5;
+let interval;
+let intervalAfter;
+let bgmusic;
 let back
 
 function preload() {
