@@ -22,5 +22,5 @@ function setup() {
  let userText = "Enter text here"
 
  function setup() {
-    
+     createCanvas(600,400)
  }
