@@ -19,4 +19,8 @@ function setup() {
  }
 
  let inputText
- let userText = "Enter text"
+ let userText = "Enter text here"
+
+ function setup() {
+    
+ }
