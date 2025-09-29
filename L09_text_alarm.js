@@ -51,7 +51,7 @@ function setup () {
 }
 
 function draw() {
-    background(220);
+    background();
     textSize(50);
     text("Click me to start timer", width/2, height-50 );
     textSize(100);
@@ -80,5 +80,5 @@ function countDownUpdate() {
 function timerAfter() {
     bgmusic.play();
     back = color(random(255), random(255), random(255));
-    background(back);
+  
 }
