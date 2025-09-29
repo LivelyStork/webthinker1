@@ -36,6 +36,7 @@
 let countdown = 5
 let interval
 let intervalAfter
+let bgmusic
 
 function setup () {
     createCanvas(600,400);
