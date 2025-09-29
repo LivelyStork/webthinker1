@@ -15,5 +15,5 @@ function setup() {
  }
 
  function changeBg() {
-    bgcolor
+    bgcolor = color(random(0,255))
  }
