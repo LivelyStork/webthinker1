@@ -38,7 +38,7 @@ let interval
 let intervalAfter
 let bgmusic
 bgmusic = loadSound('assets/bossaNova.mp3')
-let back
+let back = 'gray'
 
 function setup () {
     createCanvas(600,400);
