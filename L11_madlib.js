@@ -3,5 +3,7 @@ let inputText;
 let userText;
 
 function setup() {
-    c
+    createCanvas(600,400);
+
+    
 }
