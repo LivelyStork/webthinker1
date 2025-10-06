@@ -90,7 +90,7 @@ let colorPicker;
     fill(0);
     textSize(24);
     textAlign(CENTER, CENTER);
-    text(userText, 300, 180);
+    text(userText, 300, 400);
 
     textSize(18);
     textAlign(LEFT, BOTTOM);
