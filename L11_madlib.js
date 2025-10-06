@@ -5,5 +5,6 @@ let userText;
 function setup() {
     createCanvas(600,400);
 
-    colorTextPicker = createColo
+    colorTextPicker = createColorPicker();
+    
 }
