@@ -69,8 +69,9 @@
 //     rect(50,100,500,160,20)
 // }
 
-let inputText
-let userText = "Enter text here"
+let inputText;
+let userText = "Enter text here";
+
 let colorPicker;
 
  function setup() {
