@@ -84,12 +84,10 @@ let colorPicker;
 
  }
 
+ 
  function draw() {
     background(220);
 
-    fill(255);
-    rect(50,100,500,160,20)
-    
     fill(0);
     textSize(24);
     textAlign(CENTER, CENTER);
