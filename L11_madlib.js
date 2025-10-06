@@ -15,4 +15,5 @@ function setup() {
 function draw() {
     textSize(24);
     text("Enter text here: ", 100, 200)
+    
 }
