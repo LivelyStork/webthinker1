@@ -2,4 +2,6 @@ let colorTextPicker;
 let inputText;
 let userText;
 
-function setup();
+function setup() {
+    c
+}
