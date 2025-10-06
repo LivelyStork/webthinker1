@@ -49,4 +49,8 @@
  
 //  }
 
-let colorPicker
+let colorPicker;
+
+function setup() {
+    
+}
