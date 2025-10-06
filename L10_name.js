@@ -79,6 +79,7 @@ let colorPicker;
      inputText = createInput();
      inputText.position(width/2-100, height-80);
      inputText.input(userTextUpdate);
+     
      colorPicker = createColorPicker();
      colorPicker.position(300,300);
 
