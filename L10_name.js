@@ -84,7 +84,9 @@ let colorPicker;
 
  }
 
- 
+ fill(255);
+rect(50,100,500,160,20)
+
  function draw() {
     background(220);
 
