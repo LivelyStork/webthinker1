@@ -94,7 +94,7 @@ let colorPicker;
 
     textSize(18);
     textAlign(LEFT, BOTTOM);
-    text("Enter text here", 50, height-60);
+    text("What is your name?", 50, height-60);
     
     
     background(colorPicker.value());
