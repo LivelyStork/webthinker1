@@ -26,5 +26,5 @@
 
      inputText = createInput();
      inputText.position(width/2-100, height-80);
-     inputText.input(user)
+     inputText.input(userTextUpdate)
  }
