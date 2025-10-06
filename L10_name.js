@@ -40,5 +40,5 @@
 
     textSize(18);
     textAlign(LEFT, BOTTOM);
-    text("Enter text here", )
+    text("Enter text here", 50, height-80)
  }
