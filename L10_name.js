@@ -82,7 +82,7 @@ let colorPicker;
      inputText.position(width/2-100, height-80);
      inputText.input(userTextUpdate);
      inputAge = createInput();
-     inputAge.position(width/2-100, height-80);
+     inputAge.position(width/2-100, height-180);
      inputAge.input(userAgeUpdate);
      colorPicker = createColorPicker();
      colorPicker.position(300,300);
@@ -109,7 +109,7 @@ let colorPicker;
     textSize(18);
     textAlign(LEFT, BOTTOM);
     text("What is your name?", 30, height-60);
-    
+
  }
 
  function userTextUpdate() {
