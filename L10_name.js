@@ -65,5 +65,6 @@ function draw() {
     textAlign(LEFT);
     text("Pick a color: ", 50, 300+15);
 
-    fill(255)
+    fill(255);
+    rect
 }
