@@ -24,6 +24,6 @@
  function setup() {
      createCanvas(600,400);
 
-     inputText = createInput()
-     inputText
+     inputText = createInput();
+     inputText.position
  }
