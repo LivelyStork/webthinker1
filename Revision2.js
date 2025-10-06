@@ -8,5 +8,8 @@ function setup() {
 function draw() {
     fill('orange')
     textAlign(CENTER)
-    
+    textSize(24);
+    for(let i=0; i<arr.length; i++) {
+        
+    }
 }
