@@ -62,5 +62,5 @@ function draw() {
     background(220);
     fill(0);
     textSize(16);
-    
+    textAlign(LEFT)
 }
