@@ -34,5 +34,6 @@
     background(220);
 
     fill(0);
-    textSize(24)
+    textSize(24);
+    
  }
