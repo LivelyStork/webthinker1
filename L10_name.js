@@ -116,3 +116,9 @@ let colorPicker;
     userText = this.value();
  
  }
+
+ function userTextUpdate() {
+    
+    userAge = this.value();
+ 
+ }
