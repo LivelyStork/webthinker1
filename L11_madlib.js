@@ -7,7 +7,7 @@ function setup() {
     background(220)
 
     colorTextPicker = createColorPicker();
-    colorPicker.position(300,300)
+    colorTextPicker.position(300,300)
     inputText = createInput();
     inputText.position(300, 200)
     inputText.input(userTextUpdate);
@@ -16,7 +16,7 @@ function setup() {
 function draw() {
     textSize(24);
     text("Enter text here: ", 100, 200)
-    fill(colorPicker.value())
+    fill(colorTextPicker.value())
     text(userText, 300, 100)
 }
 
