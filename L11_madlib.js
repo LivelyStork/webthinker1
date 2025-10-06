@@ -9,4 +9,5 @@ function setup() {
     colorPicker.position(300,300)
 }
 
-function draw()
+function draw() {
+}
