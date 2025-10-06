@@ -8,3 +8,5 @@ function setup() {
     colorTextPicker = createColorPicker();
     colorPicker.position(300,300)
 }
+
+function draw()
