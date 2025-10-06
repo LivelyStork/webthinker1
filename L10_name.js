@@ -107,14 +107,3 @@ function setup() {
     colorPicker = createColorPicker();
     colorPicker.position(300,300);
 }
-
-function draw() {
-    background(colorPicker.value());
-    fill(0);
-    textSize(16);
-    textAlign(LEFT);
-    text("Pick a color: ", 50, 300+15);
-
-    fill(255);
-    rect(50,100,500,160,20)
-}
