@@ -102,7 +102,7 @@ let colorPicker;
 
     textSize(18);
     textAlign(LEFT, BOTTOM);
-    text("What is your name?", 50, height-60);
+    text("What is your name?", 30, height-60);
  }
 
  function userTextUpdate() {
