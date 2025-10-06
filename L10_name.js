@@ -18,11 +18,11 @@ function setup() {
     bgcolor = color(random(0,255), random(0,255), random(0,255))
  }
 
-//  let inputText
-//  let userText = "Enter text here"
+ let inputText
+ let userText = "Enter text here"
 
-//  function setup() {
-//      createCanvas(600,400)
+ function setup() {
+     createCanvas(600,400)
 
-//      inputText
-//  }
+     inputText
+ }
