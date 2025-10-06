@@ -4,7 +4,6 @@ let userText;
 
 function setup() {
     createCanvas(600,400);
-    background(220)
 
     colorTextPicker = createColorPicker();
     colorTextPicker.position(300,300)
@@ -14,6 +13,7 @@ function setup() {
 }
 
 function draw() {
+    background(220)
     textSize(24);
     text("Enter text here: ", 100, 200)
     fill(colorTextPicker.value())
