@@ -15,5 +15,6 @@ function setup() {
 function draw() {
     textSize(24);
     text("Enter text here: ", 100, 200)
-    fill()
+    fill(colorPicker.value())
+    text()
 }
