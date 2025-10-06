@@ -86,6 +86,14 @@ let colorPicker;
 
  function draw() {
     background(220);
+    background(colorPicker.value());
+    fill(0);
+    textSize(16);
+    textAlign(LEFT);
+    text("Pick a background color: ", 50, 300+15);
+
+    fill(255);
+    rect(50,100,500,160,20)
 
     fill(0);
     textSize(24);
