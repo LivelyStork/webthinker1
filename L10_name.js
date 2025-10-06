@@ -44,5 +44,5 @@
  }
 
  function userTextUpdate() {
-    userText
+    userText = this.value
  }
