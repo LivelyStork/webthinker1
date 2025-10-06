@@ -59,7 +59,7 @@ function setup() {
 }
 
 function draw() {
-    background(colorPicker.value);
+    background(colorPicker.value());
     fill(0);
     textSize(16);
     textAlign(LEFT);
