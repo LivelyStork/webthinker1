@@ -108,8 +108,8 @@ let colorPicker;
 
     textSize(18);
     textAlign(LEFT, BOTTOM);
-    text("What is your name?", 30, height-80);
-    text("What is your age?", 30, height-180);
+    text("What is your age?", 30, height-80);
+    text("What is your name?", 30, height-180);
 
  }
 
