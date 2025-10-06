@@ -49,4 +49,4 @@
  
 //  }
 
-let 
+let colorPicker
