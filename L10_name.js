@@ -117,7 +117,7 @@ let colorPicker;
  
  }
 
- function userTextUpdate() {
+ function userAgeUpdate() {
     
     userAge = this.value();
  
