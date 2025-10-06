@@ -31,5 +31,7 @@
  }
 
  function draw() {
-    background
+    background(220);
+
+    fill
  }
