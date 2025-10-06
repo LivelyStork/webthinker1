@@ -103,8 +103,8 @@ let colorPicker;
     fill(0);
     textSize(24);
     textAlign(CENTER, CENTER);
-    text(userText, 300, 200);
-    text(userAge, 300, 130);
+    text(userAge, 300, 200);
+    text(userText, 300, 130);
 
     textSize(18);
     textAlign(LEFT, BOTTOM);
