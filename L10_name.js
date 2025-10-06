@@ -24,7 +24,6 @@
  function setup() {
      createCanvas(600,400);
 
-     inpu
-
+     inpuy
      inputText
  }
