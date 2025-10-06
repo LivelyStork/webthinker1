@@ -72,7 +72,7 @@
 let inputText;
 let userText = "Enter text here";
 let inputAge;
-let 
+let userAge = "Ent"
 let colorPicker;
 
  function setup() {
