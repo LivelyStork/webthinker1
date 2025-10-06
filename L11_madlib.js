@@ -8,7 +8,7 @@ function setup() {
     colorTextPicker = createColorPicker();
     colorPicker.position(300,300)
     inputText = createInput();
-    input
+    inputText.position(300)
 }
 
 function draw() {
