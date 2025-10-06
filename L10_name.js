@@ -79,10 +79,10 @@ let colorPicker;
      createCanvas(600,600);
 
      inputText = createInput();
-     inputText.position(width/2-100, height-80);
+     inputText.position(width/2-100, height-180);
      inputText.input(userTextUpdate);
      inputAge = createInput();
-     inputAge.position(width/2-100, height-180);
+     inputAge.position(width/2-100, height-80);
      inputAge.input(userAgeUpdate);
      colorPicker = createColorPicker();
      colorPicker.position(300,300);
