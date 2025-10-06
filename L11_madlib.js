@@ -17,6 +17,7 @@ function draw() {
     textSize(24);
     fill('black')
     text("Enter text here: ", 100, 200)
+    textSize(48);
     fill(colorTextPicker.value())
     text(userText, 300, 100)
 }
