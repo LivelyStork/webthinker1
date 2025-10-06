@@ -18,33 +18,33 @@
 //     bgcolor = color(random(0,255), random(0,255), random(0,255))
 //  }
 
- let inputText
- let userText = "Enter text here"
+//  let inputText
+//  let userText = "Enter text here"
 
- function setup() {
-     createCanvas(600,400);
+//  function setup() {
+//      createCanvas(600,400);
 
-     inputText = createInput();
-     inputText.position(width/2-100, height-80);
-     inputText.input(userTextUpdate);
+//      inputText = createInput();
+//      inputText.position(width/2-100, height-80);
+//      inputText.input(userTextUpdate);
 
- }
+//  }
 
- function draw() {
-    background(220);
+//  function draw() {
+//     background(220);
 
-    fill(0);
-    textSize(24);
-    textAlign(CENTER, CENTER);
-    text(userText, width/2, height/2);
+//     fill(0);
+//     textSize(24);
+//     textAlign(CENTER, CENTER);
+//     text(userText, width/2, height/2);
 
-    textSize(18);
-    textAlign(LEFT, BOTTOM);
-    text("Enter text here", 50, height-60);
- }
+//     textSize(18);
+//     textAlign(LEFT, BOTTOM);
+//     text("Enter text here", 50, height-60);
+//  }
 
- function userTextUpdate() {
+//  function userTextUpdate() {
     
-    userText = this.value();
+//     userText = this.value();
  
- }
+//  }
