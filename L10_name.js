@@ -59,7 +59,7 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background();
     fill(0);
     textSize(16);
     textAlign(LEFT);
