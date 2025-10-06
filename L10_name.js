@@ -71,6 +71,7 @@
 
 let inputText
 let userText = "Enter text here"
+let colorPicker;
 
  function setup() {
      createCanvas(600,400);
@@ -99,8 +100,6 @@ let userText = "Enter text here"
     userText = this.value();
  
  }
-
-let colorPicker;
 
 function setup() {
     createCanvas(600,400);
