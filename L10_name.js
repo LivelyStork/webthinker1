@@ -55,5 +55,5 @@ function setup() {
     createCanvas(600,400);
 
     colorPicker = createColorPicker();
-    colorPicker.position
+    colorPicker.position(300,300)
 }
