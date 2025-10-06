@@ -40,5 +40,9 @@
 
     textSize(18);
     textAlign(LEFT, BOTTOM);
-    text("Enter text here", 50, height-80)
+    text("Enter text here", 50, height-80);
+ }
+
+ function userTextUpdate() {
+    
  }
