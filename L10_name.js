@@ -39,5 +39,6 @@
     text(userText, width/2, height/2);
 
     textSize(18);
-    textAlign()
+    textAlign(screenLeft, BOTTOM);
+    
  }
