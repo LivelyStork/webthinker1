@@ -74,13 +74,13 @@ let userText = "Enter text here"
 let colorPicker;
 
  function setup() {
-     createCanvas(600,400);
+     createCanvas(600,600);
 
      inputText = createInput();
      inputText.position(width/2-100, height-80);
      inputText.input(userTextUpdate);
      colorPicker = createColorPicker();
-    colorPicker.position(300,300);
+     colorPicker.position(300,300);
 
  }
 
