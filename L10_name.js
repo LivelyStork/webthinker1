@@ -69,46 +69,46 @@
 //     rect(50,100,500,160,20)
 // }
 
-// let inputText
-// let userText = "Enter text here"
-// let colorPicker;
+let inputText
+let userText = "Enter text here"
+let colorPicker;
 
-//  function setup() {
-//      createCanvas(600,600);
+ function setup() {
+     createCanvas(600,600);
 
-//      inputText = createInput();
-//      inputText.position(width/2-100, height-80);
-//      inputText.input(userTextUpdate);
-//      colorPicker = createColorPicker();
-//      colorPicker.position(300,300);
+     inputText = createInput();
+     inputText.position(width/2-100, height-80);
+     inputText.input(userTextUpdate);
+     colorPicker = createColorPicker();
+     colorPicker.position(300,300);
 
-//  }
+ }
 
-//  function draw() {
-//     background(220);
+ function draw() {
+    background(220);
 
-//     fill(0);
-//     textSize(24);
-//     textAlign(CENTER, CENTER);
-//     text(userText, 300, 180);
+    fill(0);
+    textSize(24);
+    textAlign(CENTER, CENTER);
+    text(userText, 300, );
 
-//     textSize(18);
-//     textAlign(LEFT, BOTTOM);
-//     text("What is your name?", 50, height-60);
+    textSize(18);
+    textAlign(LEFT, BOTTOM);
+    text("What is your name?", 50, height-60);
     
     
-//     background(colorPicker.value());
-//     fill(0);
-//     textSize(16);
-//     textAlign(LEFT);
-//     text("Pick a background color: ", 50, 300+15);
+    background(colorPicker.value());
+    fill(0);
+    textSize(16);
+    textAlign(LEFT);
+    text("Pick a background color: ", 50, 300+15);
 
-//     fill(255);
-//     rect(50,100,500,160,20)
-//  }
+    fill(255);
+    rect(50,100,500,160,20)
+ }
 
-//  function userTextUpdate() {
+ function userTextUpdate() {
     
-//     userText = this.value();
+    userText = this.value();
  
-//  }
+ }
