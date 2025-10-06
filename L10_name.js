@@ -25,5 +25,5 @@
      createCanvas(600,400);
 
      inputText = createInput();
-     inputText.position(width)
+     inputText.position(width/2)
  }
