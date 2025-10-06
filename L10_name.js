@@ -84,9 +84,6 @@ let colorPicker;
 
  }
 
- fill(255);
-rect(50,100,500,160,20)
-
  function draw() {
     background(220);
 
@@ -97,14 +94,14 @@ rect(50,100,500,160,20)
 
     textSize(18);
     textAlign(LEFT, BOTTOM);
-    text("What is your name?", 50, height-60);
+    text("What is", 50, height-60);
     
     
     background(colorPicker.value());
     fill(0);
     textSize(16);
     textAlign(LEFT);
-    text("Pick a background color: ", 50, 300+15);
+    text("Pick a color: ", 50, 300+15);
 
     fill(255);
     rect(50,100,500,160,20)
