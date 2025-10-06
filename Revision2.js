@@ -1,1 +1,1 @@
-let arr = ["pizza", "apples", ""]
+let arr = ["pizza", "apples", "juice", tissues]
