@@ -70,7 +70,7 @@
 // }
 
 let inputText
- let userText = "Enter text here"
+let userText = "Enter text here"
 
  function setup() {
      createCanvas(600,400);
