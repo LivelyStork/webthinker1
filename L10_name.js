@@ -36,5 +36,5 @@
     fill(0);
     textSize(24);
     textAlign(CENTER, CENTER);
-    text(userE)
+    text(userText, width/2)
  }
