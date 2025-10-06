@@ -18,3 +18,7 @@ function draw() {
     fill(colorPicker.value())
     text(userText, 300, 100)
 }
+
+function userTextUpdate() {
+    
+}
