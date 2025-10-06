@@ -72,7 +72,6 @@
 let inputText;
 let userText = "Enter text here";
 let inputAge;
-let userAge = "Ent"
 let colorPicker;
 
  function setup() {
@@ -82,7 +81,7 @@ let colorPicker;
      inputText.position(width/2-100, height-80);
      inputText.input(userTextUpdate);
      inputAge = createInput();
-     inputText.position(width/2-100, height-80);
+     inputA.position(width/2-100, height-80);
      inputText.input(userTextUpdate);
      colorPicker = createColorPicker();
      colorPicker.position(300,300);
