@@ -10,6 +10,6 @@ function draw() {
     textAlign(CENTER)
     textSize(24);
     for(let i=0; i<arr.length; i++) {
-        
+        text()
     }
 }
