@@ -82,7 +82,7 @@ let colorPicker;
      inputText.input(userTextUpdate);
      inputAge = createInput();
      inputAge.position(width/2-100, height-80);
-     inputAge.input(userTextUpdate);
+     inputAge.input(userAgeUpdate);
      colorPicker = createColorPicker();
      colorPicker.position(300,300);
 
