@@ -4,6 +4,7 @@ let userText;
 
 function setup() {
     createCanvas(600,400);
+    back
 
     colorTextPicker = createColorPicker();
     colorPicker.position(300,300)
