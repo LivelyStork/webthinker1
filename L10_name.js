@@ -1,22 +1,22 @@
-let bgcolor = 'gray'
-let interval
+// let bgcolor = 'gray'
+// let interval
 
-function setup() {
-    createCanvas(600,400)
-    fill(0)
-    textAlign(CENTER,CENTER)
-    interval = setInterval(changeBg, 1000)
-}
- function draw() {
-    background(bgcolor)
-    let s = 59 - second()
-    textSize(100)
-    text(s, width/2, height/2)
- }
+// function setup() {
+//     createCanvas(600,400)
+//     fill(0)
+//     textAlign(CENTER,CENTER)
+//     interval = setInterval(changeBg, 1000)
+// }
+//  function draw() {
+//     background(bgcolor)
+//     let s = 59 - second()
+//     textSize(100)
+//     text(s, width/2, height/2)
+//  }
 
- function changeBg() {
-    bgcolor = color(random(0,255), random(0,255), random(0,255))
- }
+//  function changeBg() {
+//     bgcolor = color(random(0,255), random(0,255), random(0,255))
+//  }
 
  let inputText
  let userText = "Enter text here"
