@@ -66,5 +66,5 @@ function draw() {
     text("Pick a color: ", 50, 300+15);
 
     fill(255);
-    rect(50,100,500,160)
+    rect(50,100,500,160,20)
 }
