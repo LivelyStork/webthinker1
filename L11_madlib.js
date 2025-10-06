@@ -1,1 +1,2 @@
-let 
+let colorTextPicker;
+let t
