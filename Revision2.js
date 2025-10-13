@@ -22,7 +22,7 @@ function setup() {
 
 function draw() {
     fill('red')
-    ellipse(40, xball, 200)
+    ellipse(xball, )
     if(xball<560) {
         xball += 2
     }
