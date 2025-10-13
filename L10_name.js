@@ -130,7 +130,8 @@ let userText = "Enter text here";
 let inputAge;
 let userAge = "Enter text here";
 let colorPicker;
-
+let colorPicker1;
+let colorPicker2;
 
  function setup() {
      createCanvas(600,600);
