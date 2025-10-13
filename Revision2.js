@@ -13,7 +13,7 @@
 //         text(arr[i], 300, i*50 + 70)
 //     }
 // }
-let x = 
+let xball = 300
 
 function setup() {
     createCanvas(600,400);
@@ -22,6 +22,6 @@ function setup() {
 
 function draw() {
     fill('red')
-    ellipse(10, x, 200)
+    ellipse(10, xball, 200)
 
 }
