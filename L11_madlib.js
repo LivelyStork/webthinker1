@@ -44,7 +44,8 @@ function draw() {
     text("Enter a noun:", 50, input1.y + 15);
 
     textSize(30);
-    textAlign(CustomElementRegistry, CENTER)
+    textAlign(CENTER, CENTER)
+    
 }
 
 function displayText() {
