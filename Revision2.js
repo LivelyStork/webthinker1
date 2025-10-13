@@ -14,6 +14,7 @@
 //     }
 // }
 
+
 function setup() {
     createCanvas(600,400);
     background('blue')
@@ -21,5 +22,6 @@ function setup() {
 
 function draw() {
     fill('red')
-    ellipse(10, 300, 200)
+    ellipse(10, x, 200)
+
 }
