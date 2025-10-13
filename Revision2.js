@@ -14,6 +14,7 @@
 //     }
 // }
 let xball = 300
+let speed = 2
 
 function setup() {
     createCanvas(600,400);
@@ -25,7 +26,7 @@ function draw() {
     fill('red')
     ellipse(xball, 200, 40)
     if(xball=560) {
-        xball += 2
+        xball += speed
     }
     if(xball>560) {
         xball -= 2
