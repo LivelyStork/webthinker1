@@ -41,9 +41,9 @@ function draw() {
     background(220);
 
     textSize(15);
-    text("Enter a noun:", 50, input1.y + 15)
+    text("Enter a noun:", 50, input1.y + 15);
 }
 
 function displayText() {
-    message = input
+    message = input1.value();
 }
