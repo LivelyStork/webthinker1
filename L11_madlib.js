@@ -35,6 +35,7 @@ function setup() {
     input1.position(width/2 - input1.width/2, 50);
     button = createButton('Generate Story');
     button.position(width/2 - button.width/2, 300);
+    button.mousPressed(dis)
 }
 
 function draw() {
