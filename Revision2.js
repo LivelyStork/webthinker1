@@ -21,5 +21,5 @@ function setup() {
 
 function draw() {
     fill('red')
-    ellipse(10)
+    ellipse(10, 300, 200)
 }
