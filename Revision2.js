@@ -24,6 +24,9 @@ function draw() {
     fill('red')
     ellipse(40, xball, 200)
     if(xball<560) {
-
+        xball += 2
+    }
+    if(xball<560) {
+        xball += 2
     }
 }
