@@ -23,5 +23,5 @@ function setup() {
 function draw() {
     fill('red')
     ellipse(10, xball, 200)
-
+    xball += 2
 }
