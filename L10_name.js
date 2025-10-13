@@ -69,6 +69,62 @@
 //     rect(50,100,500,160,20)
 // }
 
+// let inputText;
+// let userText = "Enter text here";
+// let inputAge;
+// let userAge = "Enter text here";
+// let colorPicker;
+
+//  function setup() {
+//      createCanvas(600,600);
+
+//      inputText = createInput();
+//      inputText.position(width/2-100, height-180);
+//      inputText.input(userTextUpdate);
+//      inputAge = createInput();
+//      inputAge.position(width/2-100, height-80);
+//      inputAge.input(userAgeUpdate);
+//      colorPicker = createColorPicker();
+//      colorPicker.position(300,300);
+
+//  }
+
+//  function draw() {
+//     background(220);
+//     background(colorPicker.value());
+//     fill(0);
+//     textSize(16);
+//     textAlign(LEFT);
+//     text("Pick a background color: ", 50, 300+15);
+
+//     fill(255);
+//     rect(50,100,500,160,20)
+
+//     fill(0);
+//     textSize(24);
+//     textAlign(CENTER, CENTER);
+//     text(userAge, 300, 200);
+//     text(userText, 300, 130);
+
+//     textSize(18);
+//     textAlign(LEFT, BOTTOM);
+//     text("What is your age?", 30, height-80);
+//     text("What is your name?", 30, height-180);
+
+//  }
+
+//  function userTextUpdate() {
+    
+//     userText = this.value();
+ 
+//  }
+
+//  function userAgeUpdate() {
+    
+//     userAge = this.value();
+ 
+//  }
+
 let inputText;
 let userText = "Enter text here";
 let inputAge;
