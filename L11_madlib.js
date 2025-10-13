@@ -26,3 +26,6 @@
 //     userText = this.value();
 // }
 
+function setup() {
+    createCanvas(600,400);
+}
