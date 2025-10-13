@@ -20,5 +20,6 @@ function setup() {
 }
 
 function draw() {
+    fill
     ellipse()
 }
