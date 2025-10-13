@@ -31,7 +31,7 @@ let button;
 function setup() {
     createCanvas(600,400);
 
-    input1 = createInput
+    input1 = createInput('En')
 }
 
 function draw() {
