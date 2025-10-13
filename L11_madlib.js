@@ -26,6 +26,10 @@
 //     userText = this.value();
 // }
 let input1;
+let input2;
+let input3;
+let input4;
+let input1;
 let button;
 let message;
 
@@ -47,7 +51,7 @@ function setup() {
 
     input1 = createInput();
     input1.position(width/2 - input1.width/2, 50);
-    
+
     button = createButton('Generate Story');
     button.position(width/2 - button.width/2, 300);
     button.mousePressed(displayText)
