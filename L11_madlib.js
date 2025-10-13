@@ -44,4 +44,6 @@ function draw() {
     text("Enter a noun:", 50, input1.y + 15)
 }
 
-function displayText()
+function displayText() {
+    message = input
+}
