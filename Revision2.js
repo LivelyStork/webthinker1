@@ -25,10 +25,11 @@ function draw() {
     background('blue')
     fill('red')
     ellipse(xball, 200, 40)
+    xball += speed
     if(xball=560) {
         xball += speed
     }
     if(xball>560) {
-        speed
+        speed *= -1
     }
 }
