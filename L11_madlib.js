@@ -44,10 +44,10 @@ function setup() {
     input2.position(width/2 - input1.width/2, 100);
 
     input3 = createInput();
-    input3.position(width/2 - input1.width/2, 50);
+    input3.position(width/2 - input1.width/2, 150);
 
     input4 = createInput();
-    input4.position(width/2 - input1.width/2, 50);
+    input4.position(width/2 - input1.width/2, 200);
 
     input5 = createInput();
     input5.position(width/2 - input1.width/2, 50);
