@@ -158,7 +158,7 @@ let colorPicker2;
     textAlign(LEFT);
     text("Pick a background color: ", 50, 300+15);
 
-    fill(255);
+    fill(colorPicker2.value());
     rect(50,100,500,160,20)
 
     fill(colorPicker1.value());
