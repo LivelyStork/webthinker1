@@ -29,7 +29,7 @@ function draw() {
     if(xball<20) {
         speed *= -1
     }
-    if(xball=580) {
+    if(xball>580) {
         speed *= -1
     }
 }
