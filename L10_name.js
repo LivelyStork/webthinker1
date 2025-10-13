@@ -147,7 +147,7 @@ let colorPicker2;
      colorPicker1 = createColorPicker();
      colorPicker1.position(500,350);
      colorPicker2 = createColorPicker();
-     colorPicker2.position(500,500);
+     colorPicker2.position(500,550);
  }
 
  function draw() {
@@ -173,7 +173,7 @@ let colorPicker2;
     text("What is your name?", 30, height-180);
     textAlign(CENTER, CENTER)
     text("Pick a text color:", 500, 300)
-    text("Pick a box color:", )
+    text("Pick a box color:", 500, 500)
 
  }
 
