@@ -26,7 +26,7 @@ function draw() {
     fill('red')
     ellipse(xball, 200, 40)
     xball += speed
-    if(xball=20) {
+    if(xball<20) {
         speed *= -1
     }
     if(xball=580) {
