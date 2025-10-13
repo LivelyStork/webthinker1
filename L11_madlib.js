@@ -57,7 +57,7 @@ function setup() {
     button.mousePressed(displayText)
 }
 
-let arr
+let arr = ["Noun", "Verb", "Adj"]
 
 function draw() {
     background(220);
