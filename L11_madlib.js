@@ -33,7 +33,8 @@ function setup() {
 
     input1 = createInput('Enter noun here');
     input1.position(width/2 - input1.width/2, 50);
-    button = createButton('Generate')
+    button = createButton('Generate Story');
+    button
 }
 
 function draw() {
