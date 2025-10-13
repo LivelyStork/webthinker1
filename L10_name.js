@@ -172,7 +172,7 @@ let colorPicker2;
     text("What is your age?", 30, height-80);
     text("What is your name?", 30, height-180);
 
-    text("Pick a text color:", )
+    text("Pick a text color:", 500, 300)
 
  }
 
