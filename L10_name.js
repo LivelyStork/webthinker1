@@ -161,7 +161,7 @@ let colorPicker2;
     fill(255);
     rect(50,100,500,160,20)
 
-    fill(0);
+    fill(colorPicker1.value());
     textSize(24);
     textAlign(CENTER, CENTER);
     text(userAge, 300, 200);
