@@ -20,6 +20,6 @@ function setup() {
 }
 
 function draw() {
-    fill
-    ellipse()
+    fill('red')
+    ellipse(10)
 }
