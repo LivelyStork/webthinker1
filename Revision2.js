@@ -26,7 +26,7 @@ function draw() {
     if(xball<560) {
         xball += 2
     }
-    if(xball<560) {
-        xball += 2
+    if(xball>560) {
+        xball -= 2
     }
 }
