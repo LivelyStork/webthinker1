@@ -147,7 +147,7 @@ let colorPicker2;
      colorPicker1 = createColorPicker();
      colorPicker1.position(500,300);
      colorPicker2 = createColorPicker();
-     colorPicker.position(500,500);
+     colorPicker2.position(500,500);
  }
 
  function draw() {
