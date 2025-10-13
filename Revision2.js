@@ -6,6 +6,7 @@
 // }
 
 // function draw() {
+// background('black')
 //     fill('orange')
 //     textAlign(CENTER)
 //     textSize(24);
