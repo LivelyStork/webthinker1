@@ -141,9 +141,9 @@ let colorPicker;
      inputAge.position(width/2-100, height-80);
      inputAge.input(userAgeUpdate);
      colorPicker = createColorPicker();
+     colorPicker.position(500,300);
      colorPicker.position(300,300);
      colorPicker.position(300,300);
-
  }
 
  function draw() {
