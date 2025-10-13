@@ -57,6 +57,8 @@ function setup() {
     button.mousePressed(displayText)
 }
 
+let arr
+
 function draw() {
     background(220);
 
