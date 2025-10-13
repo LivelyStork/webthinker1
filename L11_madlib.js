@@ -25,11 +25,11 @@
 // function userTextUpdate() {
 //     userText = this.value();
 // }
-
+let input1;
 function setup() {
     createCanvas(600,400);
 }
 
 function draw() {
-    
+
 }
