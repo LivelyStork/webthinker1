@@ -13,7 +13,7 @@
 //         text(arr[i], 300, i*50 + 70)
 //     }
 // }
-
+let x = 
 
 function setup() {
     createCanvas(600,400);
