@@ -29,6 +29,6 @@ function draw() {
         xball += speed
     }
     if(xball>560) {
-        xball -= 2
+        speed
     }
 }
