@@ -40,5 +40,6 @@ function setup() {
 function draw() {
     background(220);
 
-    textSize(15)
+    textSize(15);
+    text("Enter a noun")
 }
