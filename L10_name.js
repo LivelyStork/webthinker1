@@ -145,7 +145,7 @@ let colorPicker2;
      colorPicker = createColorPicker();
      colorPicker.position(300,300);
      colorPicker1 = createColorPicker();
-     colorPicker1.position(500,300);
+     colorPicker1.position(500,350);
      colorPicker2 = createColorPicker();
      colorPicker2.position(500,500);
  }
