@@ -27,6 +27,7 @@
 // }
 let input1;
 let button;
+
 function setup() {
     createCanvas(600,400);
 }
