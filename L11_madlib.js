@@ -31,7 +31,8 @@ let button;
 function setup() {
     createCanvas(600,400);
 
-    input1 = createInput('Enter noun here')
+    input1 = createInput('Enter noun here');
+    input 
 }
 
 function draw() {
