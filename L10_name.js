@@ -131,6 +131,7 @@ let inputAge;
 let userAge = "Enter text here";
 let colorPicker;
 
+
  function setup() {
      createCanvas(600,600);
 
@@ -142,8 +143,6 @@ let colorPicker;
      inputAge.input(userAgeUpdate);
      colorPicker = createColorPicker();
      colorPicker.position(300,300);
-     colorPicker.position(500,300);
-     colorPicker.position(500,500);
  }
 
  function draw() {
