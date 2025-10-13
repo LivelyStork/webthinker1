@@ -47,7 +47,7 @@ function draw() {
 
     textSize(30);
     textAlign(CENTER, CENTER)
-    text("Noun:" + message, width/2, height - 200)
+    text("Noun: " + message, width/2, height - 200)
 }
 
 function displayText() {
