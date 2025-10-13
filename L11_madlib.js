@@ -32,7 +32,7 @@ function setup() {
     createCanvas(600,400);
 
     input1 = createInput('Enter noun here');
-    input1.position(width/2 - input1.)
+    input1.position(width/2 - input1.width/2, 50)
 }
 
 function draw() {
