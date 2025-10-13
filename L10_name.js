@@ -173,7 +173,7 @@ let colorPicker2;
     text("What is your name?", 30, height-180);
     textAlign(CENTER, CENTER)
     text("Pick a text color:", 500, 300)
-    text("pi")
+    text("Pick a box color:", )
 
  }
 
