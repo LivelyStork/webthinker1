@@ -33,7 +33,7 @@ function setup() {
 
     input1 = createInput('Enter noun here');
     input1.position(width/2 - input1.width/2, 50);
-    button = 
+    button = createButton('Generate')
 }
 
 function draw() {
