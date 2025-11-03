@@ -12,5 +12,6 @@ function draw() {
     background(220);
     textAlign(CENTER,CENTER);
     textSize(24);
-    text("Guess the word!", width/2)
+    text("Guess the word!", width/2, 50);
+    text
 }
