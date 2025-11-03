@@ -29,3 +29,4 @@ function draw() {
     text(displayWord, width/2, 300);
 }
 
+function displayText() {}
