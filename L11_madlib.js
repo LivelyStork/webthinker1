@@ -73,7 +73,7 @@ function draw() {
     text("Verb: " + message, width/2, height - 150)
     text("Adj.: " + message, width/2, height - 100)
     text("Adv.: " + message, width/2, height - 50)
-    text("Place: " + message, width/2, height - 400)
+    text("Place: " + message, width/2, height - 0)
 }
 
 function displayText() {
