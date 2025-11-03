@@ -10,7 +10,7 @@ function setup() {
     textBox.position(width/2 - textBox.width/2, 200);
 
     button = createButton('Guess');
-    button
+    button.size(100,30);
 }
 
 function draw() {
