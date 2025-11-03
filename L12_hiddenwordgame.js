@@ -1,6 +1,6 @@
 let attempts = 0;
 let hiddenWord = "";
-let 
+let textBox;
 
 function setup() {
     createCanvas(600,400);
