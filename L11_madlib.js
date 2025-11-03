@@ -74,8 +74,8 @@ function draw() {
 
 function displayText() {
     message = input1.value();
-    message = input1.value();
-    message = input1.value();
-    message = input1.value();
-    message = input1.value();
+    message = input2.value();
+    message = input3.value();
+    message = input4.value();
+    message = input5.value();
 }
