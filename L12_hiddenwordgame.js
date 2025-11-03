@@ -19,7 +19,7 @@ function setup() {
 
     hiddenWord = random(words);
 
-    displayWord = hiddenWord[0].to
+    displayWord = hiddenWord[0].toUpperCase() 
 }
 
 function draw() {
