@@ -159,7 +159,7 @@ function draw() {
 function displayText() {
     let template = random(storyTemplates);
 
-    storyText = template
+    storyText = template.replace({})
 
     message1 = input1.value();
     message2 = input2.value();
