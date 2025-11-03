@@ -15,7 +15,7 @@ function setup() {
     button.size(100,30);
     button.position(textBox.x + textBox.width + 30, 200);
 
-    hiddenWord = 
+    hiddenWord = random(words);
 }
 
 function draw() {
