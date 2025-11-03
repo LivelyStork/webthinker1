@@ -87,3 +87,17 @@ function displayText() {
     message4 = input4.value();
     message5 = input5.value();
 }
+
+//////////////////////////////////////////////
+
+// task 2
+
+let storyTemplates; 
+let storyText; 
+
+storyTemplates = [
+        "The {adj} {noun} decided to {verb} {adv} at the {place}.",
+        "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
+        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
+];
+
