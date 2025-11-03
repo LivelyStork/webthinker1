@@ -70,8 +70,8 @@ function draw() {
     textSize(30);
     textAlign(CENTER, CENTER)
     text("Noun: " + message, width/2, height - 200)
-    text("V: " + message, width/2, height - 200)
-    text("Noun: " + message, width/2, height - 200)
+    text("Verb: " + message, width/2, height - 200)
+    text("Adj.: " + message, width/2, height - 200)
     text("Noun: " + message, width/2, height - 200)
     text("Noun: " + message, width/2, height - 200)
 }
