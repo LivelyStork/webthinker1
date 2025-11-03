@@ -70,9 +70,9 @@ function draw() {
     textSize(30);
     textAlign(CENTER, CENTER)
     text("Noun: " + message, width/2, height - 200)
-    text("Verb: " + message, width/2, height - 200)
-    text("Adj.: " + message, width/2, height - 200)
-    text("Adv.: " + message, width/2, height - 200)
+    text("Verb: " + message, width/2, height - 250)
+    text("Adj.: " + message, width/2, height - 300)
+    text("Adv.: " + message, width/2, height - 350)
     text("Place: " + message, width/2, height - 200)
 }
 
