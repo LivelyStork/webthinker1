@@ -35,7 +35,7 @@ let message;
 
 
 function setup() {
-    createCanvas(600,400);
+    createCanvas(600,600);
 
     input1 = createInput();
     input1.position(width/2 - input1.width/2, 50);
