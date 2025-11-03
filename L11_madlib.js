@@ -63,7 +63,9 @@ function draw() {
     background(220);
 
     textSize(15);
-    for(let i=0; i<arr.length; i++)
+    for(let i=0; i<arr.length; i++) {
+        text(arr[1])
+    }
 
     textSize(30);
     textAlign(CENTER, CENTER)
