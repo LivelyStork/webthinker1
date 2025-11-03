@@ -9,5 +9,6 @@ function setup() {
 }
 
 function draw() {
-    bac
+    background(220);
+    
 }
