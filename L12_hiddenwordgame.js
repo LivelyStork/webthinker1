@@ -2,6 +2,8 @@ let attempts = 0;
 let hiddenWord = "";
 let textBox;
 let button;
+let words = ["apple", "mango", "grape", "peach", "melon", "table", "chair", "brick", "cloud", "storm", 
+    "beach", "river", "flame", "grass", "skull", "horse", "laser", "brain", "plane", "train"];
 
 function setup() {
     createCanvas(600,400);
@@ -19,6 +21,6 @@ function draw() {
     textAlign(CENTER,CENTER);
     textSize(24);
     text("Guess the word!", width/2, 50);
-    text("Attempt: " + attempts, width/2, 50);
+    text("Attempt: " + attempts, width/2, 100);
     text("Hint: " + hiddenWord, width/2, 150);
 }
