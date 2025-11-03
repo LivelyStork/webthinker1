@@ -64,7 +64,7 @@ function draw() {
 
     textSize(15);
     for(let i=0; i<arr.length; i++) {
-        text(arr[1])
+        text(arr[i], 50, )
     }
 
     textSize(30);
