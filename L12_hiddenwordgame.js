@@ -1,6 +1,7 @@
 let attempts = 0;
 let hiddenWord = "";
 let textBox;
+let button;
 
 function setup() {
     createCanvas(600,400);
@@ -8,7 +9,7 @@ function setup() {
     textBox = createInput();
     textBox.position(width/2 - textBox.width/2, 200);
 
-
+    
 }
 
 function draw() {
