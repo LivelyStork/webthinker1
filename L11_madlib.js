@@ -31,7 +31,11 @@ let input3;
 let input4;
 let input5;
 let button;
-let message;
+let message1;
+let message2;
+let message3;
+let message4;
+let message5;
 
 
 function setup() {
