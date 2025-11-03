@@ -108,7 +108,7 @@ let message5;
 
 
 function setup() {
-    createCanvas(600,600);
+    createCanvas(600,400);
 
     input1 = createInput();
     input1.position(width/2 - input1.width/2, 50);
@@ -147,7 +147,7 @@ function draw() {
         text(arr[i], 50, 50 + 10 + i*50)
     }
     textAlign(CENTER, CENTER)
-    text(storyText, width/2, 550);
+    text(storyText, width/2, 350);
 }
 
 function displayText() {
