@@ -69,11 +69,11 @@ function draw() {
 
     textSize(30);
     textAlign(CENTER, CENTER)
-    text("Noun: " + message, width/2, height - 250)
-    text("Verb: " + message, width/2, height - 200)
-    text("Adj.: " + message, width/2, height - 150)
-    text("Adv.: " + message, width/2, height - 100)
-    text("Place: " + message, width/2, height - 50)
+    text("Noun: " + message1, width/2, height - 250)
+    text("Verb: " + message2, width/2, height - 200)
+    text("Adj.: " + message3, width/2, height - 150)
+    text("Adv.: " + message4, width/2, height - 100)
+    text("Place: " + message4, width/2, height - 50)
 }
 
 function displayText() {
