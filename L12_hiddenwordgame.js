@@ -18,6 +18,8 @@ function setup() {
     button.mousePressed(displayText);
 
     hiddenWord = random(words);
+
+    display
 }
 
 function draw() {
