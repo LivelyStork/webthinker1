@@ -2,5 +2,7 @@ let attempts = 0;
 let hiddenWord = "";
 
 function setup() {
-    createCanvas
+    createCanvas(600,400);
+
+    text
 }
