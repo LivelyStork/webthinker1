@@ -128,6 +128,13 @@ function setup() {
     button = createButton('Generate Story');
     button.position(width/2 - button.width/2, 300);
     button.mousePressed(displayText)
+
+    storyTemplates = [
+        "The {adj} {noun} decided to {verb} {adv} at the {place}.",
+        "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
+        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
+];
+
 }
 
 let arr = ["Noun", "Verb", "Adj", "Adv.", "Place"]
@@ -156,10 +163,3 @@ function displayText() {
     message4 = input4.value();
     message5 = input5.value();
 }
-
-storyTemplates = [
-        "The {adj} {noun} decided to {verb} {adv} at the {place}.",
-        "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
-        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
-];
-
