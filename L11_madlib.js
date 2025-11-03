@@ -153,9 +153,9 @@ function draw() {
 function displayText() {
     let template = random(storyTemplates);
 
-    storyText = template.replace({noun}, input1.value())
-                        .replace({verb}, input2.value())
-                        .replace({adj}, input3.value())
-                        .replace({adv}, input4.value())
-                        .replace({place}, input5.value())
+    storyText = template.replace("{noun}", input1.value())
+                        .replace("{verb}", input2.value())
+                        .replace("{adj}", input3.value())
+                        .replace("{adv}", input4.value())
+                        .replace("{place}", input5.value())
 }
