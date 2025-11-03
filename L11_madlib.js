@@ -72,8 +72,8 @@ function draw() {
     text("Noun: " + message, width/2, height - 200)
     text("Verb: " + message, width/2, height - 200)
     text("Adj.: " + message, width/2, height - 200)
-    text("Noun: " + message, width/2, height - 200)
-    text("Noun: " + message, width/2, height - 200)
+    text("Adv.: " + message, width/2, height - 200)
+    text("Place: " + message, width/2, height - 200)
 }
 
 function displayText() {
