@@ -146,7 +146,7 @@ function draw() {
     for(let i=0; i<arr.length; i++) {
         text(arr[i], 50, 50 + 10 + i*50)
     }
-
+    textAlign(CENTER)
     text(storyText, width/2, 550);
 }
 
