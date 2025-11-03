@@ -19,7 +19,7 @@ function setup() {
 
     hiddenWord = random(words);
 
-    displayWord = hidden
+    displayWord = hiddenWord[0].to
 }
 
 function draw() {
