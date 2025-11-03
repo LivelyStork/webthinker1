@@ -71,9 +71,9 @@ function draw() {
     textAlign(CENTER, CENTER)
     text("Noun: " + message, width/2, height - 250)
     text("Verb: " + message, width/2, height - 200)
-    text("Adj.: " + message, width/2, height - 0)
-    text("Adv.: " + message, width/2, height - 50)
-    text("Place: " + message, width/2, height - 0)
+    text("Adj.: " + message, width/2, height - 150)
+    text("Adv.: " + message, width/2, height - 100)
+    text("Place: " + message, width/2, height - 50)
 }
 
 function displayText() {
