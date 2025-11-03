@@ -74,4 +74,8 @@ function draw() {
 
 function displayText() {
     message = input1.value();
+    message = input1.value();
+    message = input1.value();
+    message = input1.value();
+    message = input1.value();
 }
