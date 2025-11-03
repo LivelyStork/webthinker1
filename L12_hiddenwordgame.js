@@ -4,7 +4,7 @@ let textBox;
 let button;
 let words = ["apple", "mango", "grape", "peach", "melon", "table", "chair", "brick", "cloud", "storm", 
     "beach", "river", "flame", "grass", "skull", "horse", "laser", "brain", "plane", "train"];
-let display
+let displayWord;
 
 function setup() {
     createCanvas(600,400);
