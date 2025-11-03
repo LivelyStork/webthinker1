@@ -147,23 +147,15 @@ function draw() {
         text(arr[i], 50, 50 + 10 + i*50)
     }
 
-    textSize(30);
-    textAlign(CENTER, CENTER)
-    text("Noun: " + message1, width/2, height - 250)
-    text("Verb: " + message2, width/2, height - 200)
-    text("Adj.: " + message3, width/2, height - 150)
-    text("Adv.: " + message4, width/2, height - 100)
-    text("Place: " + message5, width/2, height - 50)
+    text(storyText, width/2, 550)
 }
 
 function displayText() {
     let template = random(storyTemplates);
 
-    storyText = template.replace({noun}, )
-
-    message1 = input1.value();
-    message2 = input2.value();
-    message3 = input3.value();
-    message4 = input4.value();
-    message5 = input5.value();
+    storyText = template.replace({noun}, input1.value())
+                        .replace({verb}, input2.value())
+                        .replace({adj}, input3.value())
+                        .replace({adv}, input4.value())
+                        .replace({place}, input5.value())
 }
