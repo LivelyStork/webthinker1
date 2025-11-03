@@ -73,13 +73,13 @@ function draw() {
     text("Verb: " + message2, width/2, height - 200)
     text("Adj.: " + message3, width/2, height - 150)
     text("Adv.: " + message4, width/2, height - 100)
-    text("Place: " + message4, width/2, height - 50)
+    text("Place: " + message5, width/2, height - 50)
 }
 
 function displayText() {
-    message = input1.value();
-    message = input2.value();
-    message = input3.value();
-    message = input4.value();
+    message1 = input1.value();
+    message2 = input2.value();
+    message2 = input3.value();
+    message4 = input4.value();
     message = input5.value();
 }
