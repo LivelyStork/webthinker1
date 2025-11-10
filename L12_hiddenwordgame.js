@@ -47,6 +47,8 @@ function checkGuess() {
         message = "You guessed it right! The word is " + hiddenWord;
     } else if(guess != 5) {
         message = "5 Letters Only!"
+    } else {
+        
     }
 }
 
