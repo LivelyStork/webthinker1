@@ -45,6 +45,8 @@ function checkGuess() {
 
     if(guess == hiddenWord) {
         message = "You guessed it right! The word is " + hiddenWord;
+    } else if(guess != 5) {
+        
     }
 }
 
