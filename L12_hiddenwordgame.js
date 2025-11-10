@@ -6,6 +6,7 @@ let words = ["apple", "mango", "grape", "peach", "melon", "table", "chair", "bri
     "beach", "river", "flame", "grass", "skull", "horse", "laser", "brain", "plane", "train"];
 let displayWord;
 
+
 function setup() {
     createCanvas(600,400);
 
