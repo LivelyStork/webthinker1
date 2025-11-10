@@ -44,4 +44,6 @@ function checkGuess() {
     message = getCorrectLetters(guess, hiddenWord);
 }
 
-function getCorrectLetters(guess, hiddenWord)
+function getCorrectLetters(guess, hiddenWord) {
+    
+}
