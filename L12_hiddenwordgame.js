@@ -38,4 +38,6 @@ function displayText() {
 
 function checkGuess() {
     attempts++;
+
+    let guess
 }
