@@ -35,3 +35,7 @@ function draw() {
 function displayText() {
     displayWord = textBox.value();
 }
+
+function checkGuess() {
+    
+}
