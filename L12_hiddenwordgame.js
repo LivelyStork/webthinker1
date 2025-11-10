@@ -39,5 +39,5 @@ function displayText() {
 function checkGuess() {
     attempts++;
 
-    let guess
+    let guess = text
 }
