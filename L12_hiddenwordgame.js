@@ -48,7 +48,7 @@ function getCorrectLetters(guess, hiddenWord) {
     let correctLetters = "";
     for(let i=0;i<hiddenWord; i++) {
         if(hiddenWord.includes(guess[i])) {
-            
+            correctLetters += guess
         }
     }
 }
