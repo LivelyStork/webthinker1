@@ -39,5 +39,5 @@ function displayText() {
 function checkGuess() {
     attempts++;
 
-    let guess = textBox.value().to
+    let guess = textBox.value().toL
 }
