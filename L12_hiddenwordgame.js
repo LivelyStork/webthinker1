@@ -5,8 +5,8 @@ let button;
 let words = ["apple", "mango", "grape", "peach", "melon", "table", "chair", "brick", "cloud", "storm", 
     "beach", "river", "flame", "grass", "skull", "horse", "laser", "brain", "plane", "train"];
 let displayWord;
-let message = ""
-let hint = ""
+let message = "";
+let hint = "";
 
 function setup() {
     createCanvas(600,400);
@@ -17,7 +17,7 @@ function setup() {
     button = createButton('Guess');
     button.size(100,30);
     button.position(textBox.x + textBox.width + 30, 200);
-    button.mousePressed(displayText);
+    button.mousePressed(checkGuess);
 
     hiddenWord = random(words);
 
@@ -46,7 +46,7 @@ function checkGuess() {
 
     if(guess == hiddenWord) {
         message = "You guessed it right! The word is " + hiddenWord;
-    } else if(guess != 5) {
+    } else if(guess.length != 5) {
         message = "5 Letters Only!"
     } else {
         message = "Try Again. The letter(s) you got right is/are " + message;
