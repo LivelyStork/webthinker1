@@ -20,7 +20,7 @@ function setup() {
 
     hiddenWord = random(words);
 
-    hiddenWord = hiddenWord[0].toUpperCase() + " " + "_ ".repeat(hiddenWord.length-1)
+    hint = hiddenWord[0].toUpperCase() + " " + "_ ".repeat(hiddenWord.length-1)
 }
 
 function draw() {
