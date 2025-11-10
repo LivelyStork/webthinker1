@@ -34,9 +34,9 @@ function draw() {
     text(message, width/2, 300);
 }
 
-function displayText() {
-    displayWord = textBox.value();
-}
+// function displayText() {
+//     displayWord = textBox.value();
+// }
 
 function checkGuess() {
     attempts++;
