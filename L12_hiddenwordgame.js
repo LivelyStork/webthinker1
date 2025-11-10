@@ -29,7 +29,7 @@ function draw() {
     textSize(24);
     text("Guess the word!", width/2, 50);
     text("Attempt: " + attempts, width/2, 100);
-    text("Hint: " + hiddenWord, width/2, 150);
+    text("Hint: " + hint, width/2, 150);
     text(displayWord, width/2, 300);
 }
 
