@@ -30,7 +30,7 @@ function draw() {
     background(220);
     textAlign(CENTER,CENTER);
     textSize(24);
-    text("Scramble !", width/2, 50);
+    text("Scramble Word Game!", width/2, 50);
     text("Attempts: " + attempts, width/2, 100);
     text("Scramble: " + hint, width/2, 150);
     text(message, width/2, 300);
