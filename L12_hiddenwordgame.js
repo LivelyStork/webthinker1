@@ -45,5 +45,5 @@ function checkGuess() {
 }
 
 function getCorrectLetters(guess, hiddenWord) {
-    let corr
+    let correctLetters = ""
 }
