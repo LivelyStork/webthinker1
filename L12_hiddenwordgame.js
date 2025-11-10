@@ -52,3 +52,5 @@ function getCorrectLetters(guess, hiddenWord) {
         }
     }
 }
+
+{{}}
